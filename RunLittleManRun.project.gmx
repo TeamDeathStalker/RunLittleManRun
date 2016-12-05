@@ -9,6 +9,8 @@
     <sprite>sprites\sprLittleManRun</sprite>
     <sprite>sprites\sprLittleManJump</sprite>
     <sprite>sprites\sprRaptorRun_</sprite>
+    <sprite>sprites\sprRaptorAttack</sprite>
+    <sprite>sprites\sprRaptorDie</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -17,6 +19,8 @@
   <objects name="objects">
     <object>objects\objLittleManRun</object>
     <object>objects\objRaptorRun</object>
+    <object>objects\objRaptorAttack</object>
+    <object>objects\objRaptorDie</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>
