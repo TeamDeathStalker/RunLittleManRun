@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\sprLittleManRun</sprite>
     <sprite>sprites\sprLittleManJump</sprite>
+    <sprite>sprites\sprRaptorRun_</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -15,6 +16,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objLittleManRun</object>
+    <object>objects\objRaptorRun</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>
