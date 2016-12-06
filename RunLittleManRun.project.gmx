@@ -13,9 +13,12 @@
     <sprite>sprites\sprRaptorDie</sprite>
     <sprite>sprites\sprRaptorIdle</sprite>
     <sprite>sprites\sprRaptorJump</sprite>
+    <sprite>sprites\sprRock</sprite>
+    <sprite>sprites\sprGroundPlatform</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
+    <background>background\bckGround</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -25,6 +28,8 @@
     <object>objects\objRaptorDie</object>
     <object>objects\objRaptorIdle</object>
     <object>objects\objRaptorJump</object>
+    <object>objects\objRock</object>
+    <object>objects\objGroundPlatform</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>
