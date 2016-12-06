@@ -12,6 +12,7 @@
     <sprite>sprites\sprRaptorAttack</sprite>
     <sprite>sprites\sprRaptorDie</sprite>
     <sprite>sprites\sprRaptorIdle</sprite>
+    <sprite>sprites\sprRaptorJump</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -23,6 +24,7 @@
     <object>objects\objRaptorAttack</object>
     <object>objects\objRaptorDie</object>
     <object>objects\objRaptorIdle</object>
+    <object>objects\objRaptorJump</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>
