@@ -8,13 +8,18 @@
   <sprites name="sprites">
     <sprite>sprites\sprLittleManRun</sprite>
     <sprite>sprites\sprLittleManJump</sprite>
-    <sprite>sprites\sprRaptorRun_</sprite>
+    <sprite>sprites\sprRaptorRun</sprite>
     <sprite>sprites\sprRaptorAttack</sprite>
     <sprite>sprites\sprRaptorDie</sprite>
     <sprite>sprites\sprRaptorIdle</sprite>
     <sprite>sprites\sprRaptorJump</sprite>
     <sprite>sprites\sprRock</sprite>
     <sprite>sprites\sprGroundPlatform</sprite>
+    <sprite>sprites\sprCensored</sprite>
+    <sprite>sprites\sprLittleManHead</sprite>
+    <sprite>sprites\sprColumn1</sprite>
+    <sprite>sprites\sprColumns2</sprite>
+    <sprite>sprites\sprColumn3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -30,6 +35,9 @@
     <object>objects\objRaptorJump</object>
     <object>objects\objRock</object>
     <object>objects\objGroundPlatform</object>
+    <object>objects\objColumn1</object>
+    <object>objects\objColumn2</object>
+    <object>objects\objColumn3</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>
