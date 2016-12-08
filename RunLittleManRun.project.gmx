@@ -20,6 +20,7 @@
     <sprite>sprites\sprColumn1</sprite>
     <sprite>sprites\sprColumns2</sprite>
     <sprite>sprites\sprColumn3</sprite>
+    <sprite>sprites\sprLogo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -38,8 +39,10 @@
     <object>objects\objColumn1</object>
     <object>objects\objColumn2</object>
     <object>objects\objColumn3</object>
+    <object>objects\objLogo</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Logo</room>
     <room>rooms\Level1</room>
   </rooms>
   <help>
