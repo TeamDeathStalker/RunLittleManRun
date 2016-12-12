@@ -51,7 +51,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objLittleManRun" x="376" y="240" name="inst_3E21D8AC" locked="0" code="" scaleX="0.589999973773956" scaleY="0.555555582046509" colour="4294967295" rotation="0"/>
     <instance objName="objRaptorRun" x="24" y="160" name="inst_5496D43C" locked="0" code="" scaleX="0.429022073745728" scaleY="0.326530605554581" colour="4294967295" rotation="0"/>
     <instance objName="objColumn1" x="496" y="224" name="inst_797E495F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objColumn2" x="560" y="208" name="inst_068EB87C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -63,6 +62,7 @@
     <instance objName="objGroundPlatform" x="472" y="272" name="inst_2A767E1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGroundPlatform" x="608" y="272" name="inst_82AF0E0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikePit" x="200" y="272" name="inst_E4780564" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLittleManRun" x="376" y="264" name="inst_C6D7BDF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

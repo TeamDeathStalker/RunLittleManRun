@@ -31,6 +31,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objLittleManRun</object>
+    <object>objects\objLittleManJump</object>
     <object>objects\objRaptorRun</object>
     <object>objects\objRaptorAttack</object>
     <object>objects\objRaptorDie</object>
