@@ -44,8 +44,8 @@
     <object>objects\objPlatform</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Logo</room>
     <room>rooms\Level1</room>
+    <room>rooms\Logo</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
