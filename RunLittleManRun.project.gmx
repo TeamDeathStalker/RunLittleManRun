@@ -21,6 +21,7 @@
     <sprite>sprites\sprColumns2</sprite>
     <sprite>sprites\sprColumn3</sprite>
     <sprite>sprites\sprLogo</sprite>
+    <sprite>sprites\sprPlatform</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -40,6 +41,7 @@
     <object>objects\objColumn2</object>
     <object>objects\objColumn3</object>
     <object>objects\objLogo</object>
+    <object>objects\objPlatform</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Logo</room>
