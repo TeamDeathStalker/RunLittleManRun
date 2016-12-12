@@ -11,6 +11,7 @@
     <sprite>sprites\sprRaptorRun</sprite>
     <sprite>sprites\sprRaptorAttack</sprite>
     <sprite>sprites\sprRaptorDie</sprite>
+    <sprite>sprites\sprRaptorDead</sprite>
     <sprite>sprites\sprRaptorIdle</sprite>
     <sprite>sprites\sprRaptorJump</sprite>
     <sprite>sprites\sprRock</sprite>
@@ -26,7 +27,6 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
-    <background>background\bckGround</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
