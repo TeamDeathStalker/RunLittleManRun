@@ -22,6 +22,7 @@
     <sprite>sprites\sprColumn3</sprite>
     <sprite>sprites\sprLogo</sprite>
     <sprite>sprites\sprPlatform</sprite>
+    <sprite>sprites\sprSpikePit</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -42,6 +43,7 @@
     <object>objects\objColumn3</object>
     <object>objects\objLogo</object>
     <object>objects\objPlatform</object>
+    <object>objects\objSpikePit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>
