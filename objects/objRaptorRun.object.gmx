@@ -25,7 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 2
+            <string>///initialize variables
+
+grav = 1;
+jspd = 14;
+vspd = 0;
+hspd = -5;
+image_speed = 2;
 </string>
           </argument>
         </arguments>
@@ -48,14 +54,54 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x,y,objColumn3))
+            <string>///jump and collisions
+
+var jkeypressed = keyboard_check_pressed(vk_space);
+var jkeyheld = keyboard_check(vk_space);    
+
+
+if(place_meeting(x, y+1, objGround))
 {
-    if( sprite_index != sprRaptorDie &amp;&amp; sprite_index != sprRaptorDead  )
-    {
-        hspeed=-5;
-        sprite_index = sprRaptorDie
+vspd=0;
+
+//jumping
+    if(jkeypressed){       
+        vspd = -jspd;
     }
 }
+else{
+//gravity
+if(vspd &lt; 10){
+    vspd+=grav;
+}
+}
+//variable jump height
+if(vspd &lt; 0) &amp;&amp; (!jkeyheld){
+    vspd = max(vspd, 0)
+}
+
+vspeed = vspd;
+
+//collision with column3
+if (place_meeting(x+hspd,y,objColumn3))
+{
+    while(!place_meeting(x+sign(hspd),y,objColumn3)){
+        x+=sign(hspd);
+    }
+    hspd = 0;
+    //sprite_index = sprRaptorDie;
+    //image_speed=2;
+        //if(image_index == 19){
+        //sprite_index = sprRaptorDead;
+        //}
+//}    
+    //if(sprite_index != sprRaptorDead)
+    //{
+        //sprite_index = sprRaptorDie
+}
+
+hspeed = hspd;        
+
 </string>
           </argument>
         </arguments>
@@ -78,13 +124,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(sprite_index == sprRaptorDie)
-{
-    image_speed=2;
-        if(image_index == 19){
-        sprite_index = sprRaptorDead;
-        }
-}
+            <string>//if(sprite_index == sprRaptorDie)
+//{
+    //image_speed=2;
+        //if(image_index == 19){
+        //sprite_index = sprRaptorDead;
+        //}
+//}
 </string>
           </argument>
         </arguments>

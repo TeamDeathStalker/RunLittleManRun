@@ -24,6 +24,8 @@
     <sprite>sprites\sprLogo</sprite>
     <sprite>sprites\sprPlatform</sprite>
     <sprite>sprites\sprSpikePit</sprite>
+    <sprite>sprites\sprGround</sprite>
+    <sprite>sprites\sprRaptorTopJump</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -31,13 +33,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objLittleManRun</object>
-    <object>objects\objLittleManJump</object>
     <object>objects\objRaptorRun</object>
-    <object>objects\objRaptorAttack</object>
-    <object>objects\objRaptorDie</object>
-    <object>objects\objRaptorIdle</object>
-    <object>objects\objRaptorJump</object>
-    <object>objects\objRock</object>
     <object>objects\objGroundPlatform</object>
     <object>objects\objColumn1</object>
     <object>objects\objColumn2</object>
@@ -45,6 +41,7 @@
     <object>objects\objLogo</object>
     <object>objects\objPlatform</object>
     <object>objects\objSpikePit</object>
+    <object>objects\objGround</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>

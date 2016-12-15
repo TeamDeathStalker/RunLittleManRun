@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = -5
+            <string>///initialize variables
+
+hspeed = -5
 </string>
           </argument>
         </arguments>

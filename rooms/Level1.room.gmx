@@ -53,16 +53,17 @@
   <instances>
     <instance objName="objColumn1" x="496" y="224" name="inst_797E495F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objColumn2" x="560" y="208" name="inst_068EB87C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objColumn3" x="624" y="184" name="inst_886A299D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objColumn3" x="624" y="192" name="inst_886A299D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlatform" x="264" y="152" name="inst_87AC8115" locked="0" code="" scaleX="0.764044940471649" scaleY="0.454545468091965" colour="4294967295" rotation="0"/>
     <instance objName="objGroundPlatform" x="64" y="272" name="inst_0F0A80D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGroundPlatform" x="744" y="272" name="inst_D110A7DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGroundPlatform" x="336" y="272" name="inst_C3ADAE09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGroundPlatform" x="472" y="272" name="inst_2A767E1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGroundPlatform" x="608" y="272" name="inst_82AF0E0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikePit" x="200" y="272" name="inst_E4780564" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRaptorRun" x="88" y="192" name="inst_05C2EE40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRaptorRun" x="96" y="192" name="inst_05C2EE40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLittleManRun" x="320" y="216" name="inst_574C762D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGroundPlatform" x="200" y="272" name="inst_C00FA12F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGround" x="-32" y="256" name="inst_E6AE7967" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
@@ -71,6 +72,6 @@
   <PhysicsWorldRight>1024</PhysicsWorldRight>
   <PhysicsWorldBottom>768</PhysicsWorldBottom>
   <PhysicsWorldGravityX>0</PhysicsWorldGravityX>
-  <PhysicsWorldGravityY>10</PhysicsWorldGravityY>
+  <PhysicsWorldGravityY>0</PhysicsWorldGravityY>
   <PhysicsWorldPixToMeters>0.100000001490116</PhysicsWorldPixToMeters>
 </room>
