@@ -25,7 +25,6 @@
     <sprite>sprites\sprPlatform</sprite>
     <sprite>sprites\sprSpikePit</sprite>
     <sprite>sprites\sprGround</sprite>
-    <sprite>sprites\sprRaptorTopJump</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -42,6 +41,9 @@
     <object>objects\objPlatform</object>
     <object>objects\objSpikePit</object>
     <object>objects\objGround</object>
+    <object>objects\objColumnParent</object>
+    <object>objects\objColumnSpawner</object>
+    <object>objects\objGroundPlatformSpawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>
