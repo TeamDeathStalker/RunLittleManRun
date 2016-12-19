@@ -23,8 +23,10 @@
     <sprite>sprites\sprColumn3</sprite>
     <sprite>sprites\sprLogo</sprite>
     <sprite>sprites\sprPlatform</sprite>
-    <sprite>sprites\sprSpikePit</sprite>
     <sprite>sprites\sprGround</sprite>
+    <sprite>sprites\sprite19</sprite>
+    <sprite>sprites\sprSpikePit</sprite>
+    <sprite>sprites\sprColumn1Top</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -39,11 +41,11 @@
     <object>objects\objColumn3</object>
     <object>objects\objLogo</object>
     <object>objects\objPlatform</object>
-    <object>objects\objSpikePit</object>
     <object>objects\objGround</object>
     <object>objects\objColumnParent</object>
     <object>objects\objColumnSpawner</object>
-    <object>objects\objGroundPlatformSpawner</object>
+    <object>objects\objSpikePit</object>
+    <object>objects\objColumn1Top</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>
