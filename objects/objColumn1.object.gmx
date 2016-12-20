@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///initialize variables
 
-hspeed = -5
+hspeed = -5;
 </string>
           </argument>
         </arguments>

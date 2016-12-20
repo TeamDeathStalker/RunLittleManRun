@@ -28,7 +28,7 @@
             <string>///initialize variables
 
 grav = 1;
-jspd = 14;
+jspd = 15;
 vspd = 0;
 image_speed = 2;
 hspd = -5;
@@ -60,7 +60,8 @@ var jkeypressed = keyboard_check_pressed(vk_space);
 var jkeyheld = keyboard_check(vk_space);    
 
 
-if(place_meeting(x, y+1, objGround))
+if(place_meeting(x, y+1, objGround) or place_meeting(x, y+1, objColumn1Top)
+or place_meeting(x, y+1, objPlatformTop))
 {
 vspd=0;
 
@@ -82,14 +83,14 @@ if(vspd &lt; 0) &amp;&amp; (!jkeyheld){
 
 vspeed = vspd;
 
-//collision with column3
+//collision with columns
 if( sprite_index == sprRaptorRun )
 {
-if (place_meeting(x+hspd,y,objColumnParent))
+if (place_meeting(x+hspd,y-8,objColumnParent) or place_meeting(x+hspd, y-8, objPlatform))
 {
-    while(!place_meeting(x+sign(hspd),y,objColumnParent)){
-        x+=sign(hspd);
-    }
+    //while(!place_meeting(x+sign(hspd),y-8,objColumnParent) or (!place_meeting(x+sign(hspd), y-8, objPlatform))){
+        //x+=sign(hspd);
+   // }
     hspeed = -5;
     sprite_index = sprRaptorDie;
     image_index = 0;
@@ -102,8 +103,7 @@ if( sprite_index == sprRaptorDie)
         sprite_index = sprRaptorDead;
       }
     }
-
-       
+     
 
 </string>
           </argument>

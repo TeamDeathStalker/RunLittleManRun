@@ -49,8 +49,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>col = instance_create(1024, 195, objColumn3)
-col.sprite_index = sprColumn3;
+            <string>col = instance_create(1024, 147, objColumn3)
+
+instance_create(1024, col.y+32, objColumn1Top);
 
 
 </string>
@@ -75,8 +76,10 @@ col.sprite_index = sprColumn3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>col = instance_create(1024, 210, objColumn2)
-col.sprite_index = sprColumns2;
+            <string>col= instance_create(1024, 178, objColumn2);
+
+instance_create(1024, col.y +32, objColumn1Top);
+
 alarm[2] = 30;
 
 
@@ -103,8 +106,6 @@ alarm[2] = 30;
           <argument>
             <kind>1</kind>
             <string>col = instance_create(1024, 241, objColumn1)
-
-col.sprite_index = sprColumn1;
 
 instance_create(1024, col.y, objColumn1Top);
 

@@ -19,14 +19,14 @@
     <sprite>sprites\sprCensored</sprite>
     <sprite>sprites\sprLittleManHead</sprite>
     <sprite>sprites\sprColumn1</sprite>
-    <sprite>sprites\sprColumns2</sprite>
+    <sprite>sprites\sprColumn2</sprite>
     <sprite>sprites\sprColumn3</sprite>
     <sprite>sprites\sprLogo</sprite>
     <sprite>sprites\sprPlatform</sprite>
     <sprite>sprites\sprGround</sprite>
-    <sprite>sprites\sprite19</sprite>
     <sprite>sprites\sprSpikePit</sprite>
     <sprite>sprites\sprColumn1Top</sprite>
+    <sprite>sprites\sprPlatformTop</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -46,6 +46,9 @@
     <object>objects\objColumnSpawner</object>
     <object>objects\objSpikePit</object>
     <object>objects\objColumn1Top</object>
+    <object>objects\objPlatformTop</object>
+    <object>objects\objPlatformSpawner</object>
+    <object>objects\objPitSpawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>
