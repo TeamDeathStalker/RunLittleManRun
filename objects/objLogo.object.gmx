@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x=450
+            <string>x=400
 y=45
 moving=true;
 vspeed=5;
@@ -52,13 +52,19 @@ vspeed=5;
           <argument>
             <kind>1</kind>
             <string>//bring Logo to center
+alarm[0]=2;
+
 if(moving)
 {
-    if y&gt;556 //point_distance(270, 45, 270, 256) &gt; 100
+    if y&gt;384 //point_distance(270, 45, 270, 256) &gt; 100
     {
     
          speed = 0;
         moving=false;
+        if(alarm[0]){
+        audio_play_sound(sndWhip,1,false)
+        }
+        
        // move_towards_point(270, 256, 6);
        //vspeed +=.005;
     }
@@ -67,7 +73,6 @@ if(moving)
        
     }
 }
-
 </string>
           </argument>
         </arguments>

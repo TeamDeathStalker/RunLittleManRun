@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndWhip</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprLittleManRun</sprite>
     <sprite>sprites\sprLittleManJump</sprite>
@@ -39,7 +41,6 @@
     <object>objects\objColumn1</object>
     <object>objects\objColumn2</object>
     <object>objects\objColumn3</object>
-    <object>objects\objLogo</object>
     <object>objects\objPlatform</object>
     <object>objects\objGround</object>
     <object>objects\objColumnParent</object>
@@ -49,6 +50,7 @@
     <object>objects\objPlatformTop</object>
     <object>objects\objPlatformSpawner</object>
     <object>objects\objPitSpawner</object>
+    <object>objects\objLogo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Logo</room>
