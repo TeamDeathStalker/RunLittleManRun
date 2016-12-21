@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>plat = instance_create(2100, 138, objPlatform)
+            <string>plat = instance_create(2100, 359, objPlatform)
 
 instance_create(2100, plat.y+10, objPlatformTop);
 

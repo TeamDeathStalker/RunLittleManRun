@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>col = instance_create(1024, 147, objColumn3)
+            <string>col = instance_create(1024, 368, objColumn3)
 
 instance_create(1024, col.y+32, objColumn1Top);
 
@@ -76,7 +76,7 @@ instance_create(1024, col.y+32, objColumn1Top);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>col= instance_create(1024, 178, objColumn2);
+            <string>col= instance_create(1024, 400, objColumn2);
 
 instance_create(1024, col.y +32, objColumn1Top);
 
@@ -105,7 +105,7 @@ alarm[2] = 30;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>col = instance_create(1024, 241, objColumn1)
+            <string>col = instance_create(1024, 470, objColumn1)
 
 instance_create(1024, col.y, objColumn1Top);
 

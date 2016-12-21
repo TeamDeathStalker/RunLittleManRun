@@ -14,7 +14,6 @@
     <sprite>sprites\sprRaptorDead</sprite>
     <sprite>sprites\sprRaptorIdle</sprite>
     <sprite>sprites\sprRaptorJump</sprite>
-    <sprite>sprites\sprRock</sprite>
     <sprite>sprites\sprGroundPlatform</sprite>
     <sprite>sprites\sprCensored</sprite>
     <sprite>sprites\sprLittleManHead</sprite>
@@ -30,6 +29,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -51,8 +51,8 @@
     <object>objects\objPitSpawner</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Level1</room>
     <room>rooms\Logo</room>
+    <room>rooms\Level1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
