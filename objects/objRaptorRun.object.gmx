@@ -31,7 +31,9 @@ grav = 1;
 jspd = 15;
 vspd = 0;
 image_speed = 2;
-hspd = -5;
+hspeed = .20;
+
+randomize();
 </string>
           </argument>
         </arguments>
@@ -86,13 +88,12 @@ vspeed = vspd;
 //collision with columns
 if( sprite_index == sprRaptorRun )
 {
-if (place_meeting(x+hspd,y-8,objColumnParent) or place_meeting(x+hspd, y-8, objPlatform))
+if (place_meeting(x+hspeed,y-8,objColumnParent) or place_meeting(x+hspeed, y-8, objPlatform))
 {
     //while(!place_meeting(x+sign(hspd),y-8,objColumnParent) or (!place_meeting(x+sign(hspd), y-8, objPlatform))){
         //x+=sign(hspd);
    // }
-    hspd = -5;
-    hspeed = hspd; 
+    hspeed = -5;
     sprite_index = sprRaptorDie;
     image_index = 0;
     image_speed = 0.5;     
@@ -103,7 +104,7 @@ if( sprite_index == sprRaptorDie)
       if(image_index &gt;=18 ){
         sprite_index = sprRaptorDead;
       }
-    }
+    }   
             
 
 </string>

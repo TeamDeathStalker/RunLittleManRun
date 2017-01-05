@@ -33,7 +33,9 @@
     <background>background\bckLevel1</background>
     <background>background\background1</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+  </paths>
   <objects name="objects">
     <object>objects\objLittleManRun</object>
     <object>objects\objRaptorRun</object>
@@ -44,12 +46,16 @@
     <object>objects\objPlatform</object>
     <object>objects\objGround</object>
     <object>objects\objColumnParent</object>
-    <object>objects\objColumnSpawner</object>
-    <object>objects\objSpikePit</object>
     <object>objects\objColumn1Top</object>
     <object>objects\objPlatformTop</object>
-    <object>objects\objPlatformSpawner</object>
-    <object>objects\objPitSpawner</object>
+    <object>objects\objSet1Spawner</object>
+    <object>objects\objSet2Spawner</object>
+    <object>objects\objSet3Spawner</object>
+    <object>objects\objSet4Spawner</object>
+    <object>objects\objSet5Spawner</object>
+    <object>objects\objSet6Spawner</object>
+    <object>objects\objSetSpawner</object>
+    <object>objects\objSpikePit</object>
     <object>objects\objLogo</object>
   </objects>
   <rooms name="rooms">

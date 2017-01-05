@@ -25,14 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 60
-
+            <string>hspeed = -5;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="2">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -49,69 +48,27 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>col = instance_create(1024, 368, objColumn3)
-
-instance_create(1024, col.y+32, objColumn1Top);
-
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>col= instance_create(1024, 400, objColumn2);
-
-instance_create(1024, col.y +32, objColumn1Top);
-
-alarm[2] = 30;
+            <string>if(x&lt;-10)
+{
+    spawnNum = choose(1,2,3,4,5,6);
+    if(spawnNum == 1)
+        instance_create(0, 0, objSet1Spawner)
+    else if(spawnNum == 2)
+        instance_create(0, 0, objSet2Spawner)
+     else if(spawnNum == 3)
+        instance_create(0, 0, objSet3Spawner)
+     else if(spawnNum == 4)
+        instance_create(0, 0, objSet4Spawner)
+     else if(spawnNum == 5)
+        instance_create(0, 0, objSet5Spawner)
+     else if(spawnNum == 6)
+        instance_create(0, 0, objSet6Spawner)
 
 
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>col = instance_create(1024, 470, objColumn1)
 
-instance_create(1024, col.y, objColumn1Top);
+instance_destroy()
 
-alarm[1] = 30;
-
-
+}
 </string>
           </argument>
         </arguments>
