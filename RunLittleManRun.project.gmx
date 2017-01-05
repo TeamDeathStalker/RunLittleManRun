@@ -28,10 +28,13 @@
     <sprite>sprites\sprSpikePit</sprite>
     <sprite>sprites\sprColumn1Top</sprite>
     <sprite>sprites\sprPlatformTop</sprite>
+    <sprite>sprites\sprTitle</sprite>
+    <sprite>sprites\sprMenu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
     <background>background\background1</background>
+    <background>background\Title</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -57,8 +60,11 @@
     <object>objects\objSetSpawner</object>
     <object>objects\objSpikePit</object>
     <object>objects\objLogo</object>
+    <object>objects\objTitle</object>
+    <object>objects\objMenu</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Title_Menu</room>
     <room>rooms\Logo</room>
     <room>rooms\Level1</room>
   </rooms>
