@@ -10,6 +10,7 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprLittleManRun</sprite>
+    <sprite>sprites\sprLittleManIdle</sprite>
     <sprite>sprites\sprLittleManJump</sprite>
     <sprite>sprites\sprRaptorRun</sprite>
     <sprite>sprites\sprRaptorAttack</sprite>
@@ -42,7 +43,9 @@
   </paths>
   <objects name="objects">
     <object>objects\objLittleManRun</object>
+    <object>objects\objLittleManIdle</object>
     <object>objects\objRaptorRun</object>
+    <object>objects\objRaptorIdle</object>
     <object>objects\objGroundPlatform</object>
     <object>objects\objColumn1</object>
     <object>objects\objColumn2</object>
@@ -65,9 +68,10 @@
     <object>objects\objMenu</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Title_Menu</room>
     <room>rooms\Logo</room>
     <room>rooms\Level1</room>
+    <room>rooms\Level1_Death</room>
+    <room>rooms\Title_Menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
