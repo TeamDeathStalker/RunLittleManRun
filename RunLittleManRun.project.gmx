@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\sndWhip</sound>
+    <sound>sound\sndBongo</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprLittleManRun</sprite>
