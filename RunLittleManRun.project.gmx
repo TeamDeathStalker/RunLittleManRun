@@ -46,6 +46,9 @@
   <paths name="paths">
     <path>paths\path0</path>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\fntScore</font>
+  </fonts>
   <objects name="objects">
     <object>objects\objLittleManRun</object>
     <object>objects\objLittleManIdle</object>
@@ -72,6 +75,7 @@
     <object>objects\objTitle</object>
     <object>objects\objMenu</object>
     <object>objects\objRectangle</object>
+    <object>objects\objController</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Logo</room>
