@@ -58,16 +58,19 @@ y=y+80;
 }
 
 else if(y=418){ 
+audio_stop_sound(sndVelociraptor); 
 audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=y+80;
 }
 else if(y=498){
+audio_stop_sound(sndVelociraptor); 
 audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=y+80;
 }
 else{
+audio_stop_sound(sndVelociraptor); 
 audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=338;
@@ -100,18 +103,21 @@ x=438;
 y=578;
 }
 
-else if(y=418){ 
+else if(y=418){
+audio_stop_sound(sndVelociraptor); 
 audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=y-80;
 
 }
 else if(y=498){
+audio_stop_sound(sndVelociraptor); 
 audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=y-80;
 }
 else{
+audio_stop_sound(sndVelociraptor); 
 audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=y-80;
