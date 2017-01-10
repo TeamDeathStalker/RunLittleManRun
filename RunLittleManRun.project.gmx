@@ -10,6 +10,7 @@
     <sound>sound\sndBongo</sound>
     <sound>sound\sndJump</sound>
     <sound>sound\sndAmbience</sound>
+    <sound>sound\sndGameplayMusic</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprLittleManRun</sprite>

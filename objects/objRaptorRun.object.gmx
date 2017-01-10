@@ -34,7 +34,8 @@ image_speed = 2;
 hspeed = .3;
 
 randomize();
-audio_play_sound(sndAmbience,1,false);
+
+audio_play_sound(sndBongo,1,true);
 </string>
           </argument>
         </arguments>

@@ -52,25 +52,25 @@ y=338;
           <argument>
             <kind>1</kind>
             <string>if(y=338){ 
+audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=y+80;
-audio_play_sound(sndVelociraptor,1,false)
 }
 
 else if(y=418){ 
+audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=y+80;
-audio_play_sound(sndVelociraptor,1,false)
 }
 else if(y=498){
+audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=y+80;
-audio_play_sound(sndVelociraptor,1,false)
 }
 else{
+audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=338;
-audio_play_sound(sndVelociraptor,1,false)
 }
 </string>
           </argument>
@@ -95,25 +95,26 @@ audio_play_sound(sndVelociraptor,1,false)
           <argument>
             <kind>1</kind>
             <string>if(y=338){ 
+audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=578;
-audio_play_sound(sndVelociraptor,1,false)
 }
 
 else if(y=418){ 
+audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=y-80;
-audio_play_sound(sndVelociraptor,1,false)
+
 }
 else if(y=498){
+audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=y-80;
-audio_play_sound(sndVelociraptor,1,false)
 }
 else{
+audio_play_sound(sndVelociraptor,1,false)
 x=438;
 y=y-80;
-audio_play_sound(sndVelociraptor,1,false)
 }
 </string>
           </argument>
@@ -138,7 +139,10 @@ audio_play_sound(sndVelociraptor,1,false)
           <argument>
             <kind>1</kind>
             <string>if y=338{
+audio_stop_sound(sndBongo);
+audio_play_sound(sndAmbience,1,true)
 room_goto(Level1);
+
 }
 </string>
           </argument>
