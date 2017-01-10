@@ -13,27 +13,35 @@
     <sound>sound\sndGameplayMusic</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprLittleManRun</sprite>
-    <sprite>sprites\sprLittleManIdle</sprite>
-    <sprite>sprites\sprLittleManJump</sprite>
-    <sprite>sprites\sprRaptorRun</sprite>
-    <sprite>sprites\sprRaptorAttack</sprite>
-    <sprite>sprites\sprRaptorDie</sprite>
-    <sprite>sprites\sprRaptorDead</sprite>
-    <sprite>sprites\sprRaptorIdle</sprite>
-    <sprite>sprites\sprRaptorJump</sprite>
-    <sprite>sprites\sprGroundPlatform</sprite>
+    <sprites name="Raptor">
+      <sprite>sprites\sprRaptorRun</sprite>
+      <sprite>sprites\sprRaptorAttack</sprite>
+      <sprite>sprites\sprRaptorDie</sprite>
+      <sprite>sprites\sprRaptorDead</sprite>
+      <sprite>sprites\sprRaptorIdle</sprite>
+      <sprite>sprites\sprRaptorJump</sprite>
+    </sprites>
+    <sprites name="LittleMan">
+      <sprite>sprites\sprLittleManRun</sprite>
+      <sprite>sprites\sprLittleManIdle</sprite>
+      <sprite>sprites\sprLittleManJump</sprite>
+      <sprite>sprites\sprLittleManHead</sprite>
+    </sprites>
+    <sprites name="Columns">
+      <sprite>sprites\sprColumn1</sprite>
+      <sprite>sprites\sprColumn2</sprite>
+      <sprite>sprites\sprColumn3</sprite>
+      <sprite>sprites\sprColumn1Top</sprite>
+    </sprites>
+    <sprites name="Ground/Platform">
+      <sprite>sprites\sprGroundPlatform</sprite>
+      <sprite>sprites\sprGround</sprite>
+      <sprite>sprites\sprPlatform</sprite>
+      <sprite>sprites\sprPlatformTop</sprite>
+    </sprites>
     <sprite>sprites\sprCensored</sprite>
-    <sprite>sprites\sprLittleManHead</sprite>
-    <sprite>sprites\sprColumn1</sprite>
-    <sprite>sprites\sprColumn2</sprite>
-    <sprite>sprites\sprColumn3</sprite>
     <sprite>sprites\sprLogo</sprite>
-    <sprite>sprites\sprPlatform</sprite>
-    <sprite>sprites\sprGround</sprite>
     <sprite>sprites\sprSpikePit</sprite>
-    <sprite>sprites\sprColumn1Top</sprite>
-    <sprite>sprites\sprPlatformTop</sprite>
     <sprite>sprites\sprTitle</sprite>
     <sprite>sprites\sprMenu</sprite>
     <sprite>sprites\sprRectangle</sprite>
@@ -42,40 +50,50 @@
     <background>background\bckLevel1</background>
     <background>background\background1</background>
     <background>background\Title</background>
-    <background>background\bckgrndIntro</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
   </paths>
   <fonts name="fonts">
-    <font>fonts\font0</font>
+    <font>fonts\fntScore</font>
   </fonts>
   <objects name="objects">
-    <object>objects\objLittleManRun</object>
-    <object>objects\objLittleManIdle</object>
-    <object>objects\objRaptorRun</object>
-    <object>objects\objRaptorIdle</object>
-    <object>objects\objGroundPlatform</object>
-    <object>objects\objColumn1</object>
-    <object>objects\objColumn2</object>
-    <object>objects\objColumn3</object>
-    <object>objects\objPlatform</object>
-    <object>objects\objGround</object>
-    <object>objects\objColumnParent</object>
-    <object>objects\objColumn1Top</object>
-    <object>objects\objPlatformTop</object>
-    <object>objects\objSet1Spawner</object>
-    <object>objects\objSet2Spawner</object>
-    <object>objects\objSet3Spawner</object>
-    <object>objects\objSet4Spawner</object>
-    <object>objects\objSet5Spawner</object>
-    <object>objects\objSet6Spawner</object>
-    <object>objects\objSetSpawner</object>
+    <objects name="Raptor">
+      <object>objects\objRaptorRun</object>
+      <object>objects\objRaptorIdle</object>
+    </objects>
+    <objects name="LittleMan">
+      <object>objects\objLittleManRun</object>
+      <object>objects\objLittleManIdle</object>
+    </objects>
+    <objects name="Columns">
+      <object>objects\objColumn1</object>
+      <object>objects\objColumn2</object>
+      <object>objects\objColumn3</object>
+      <object>objects\objColumnParent</object>
+      <object>objects\objColumn1Top</object>
+    </objects>
+    <objects name="Ground/Platform">
+      <object>objects\objPlatform</object>
+      <object>objects\objGroundPlatform</object>
+      <object>objects\objGround</object>
+      <object>objects\objPlatformTop</object>
+    </objects>
+    <objects name="objSpawner">
+      <object>objects\objSet1Spawner</object>
+      <object>objects\objSet2Spawner</object>
+      <object>objects\objSet3Spawner</object>
+      <object>objects\objSet4Spawner</object>
+      <object>objects\objSet5Spawner</object>
+      <object>objects\objSet6Spawner</object>
+      <object>objects\objSetSpawner</object>
+    </objects>
     <object>objects\objSpikePit</object>
     <object>objects\objLogo</object>
     <object>objects\objTitle</object>
     <object>objects\objMenu</object>
     <object>objects\objRectangle</object>
+    <object>objects\objScoreController</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Logo</room>
