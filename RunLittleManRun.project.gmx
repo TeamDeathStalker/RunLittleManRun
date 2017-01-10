@@ -93,7 +93,7 @@
     <object>objects\objTitle</object>
     <object>objects\objMenu</object>
     <object>objects\objRectangle</object>
-    <object>objects\objController</object>
+    <object>objects\objScoreController</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1_Death</room>
