@@ -17,8 +17,8 @@
       <sprite>sprites\sprRaptorRun</sprite>
       <sprite>sprites\sprRaptorAttack</sprite>
       <sprite>sprites\sprRaptorDie</sprite>
-      <sprite>sprites\sprRaptorIdle</sprite>
       <sprite>sprites\sprRaptorDead</sprite>
+      <sprite>sprites\sprRaptorIdle</sprite>
       <sprite>sprites\sprRaptorJump</sprite>
     </sprites>
     <sprites name="LittleMan">
@@ -35,8 +35,8 @@
     </sprites>
     <sprites name="Ground/Platform">
       <sprite>sprites\sprGroundPlatform</sprite>
-      <sprite>sprites\sprPlatform</sprite>
       <sprite>sprites\sprGround</sprite>
+      <sprite>sprites\sprPlatform</sprite>
       <sprite>sprites\sprPlatformTop</sprite>
     </sprites>
     <sprite>sprites\sprCensored</sprite>
@@ -74,14 +74,14 @@
       <object>objects\objColumn1Top</object>
     </objects>
     <objects name="Ground/Platform">
-      <object>objects\objGroundPlatform</object>
       <object>objects\objPlatform</object>
+      <object>objects\objGroundPlatform</object>
       <object>objects\objGround</object>
       <object>objects\objPlatformTop</object>
     </objects>
-    <objects name="ObstacleSpawner">
-      <object>objects\objSet2Spawner</object>
+    <objects name="objSpawner">
       <object>objects\objSet1Spawner</object>
+      <object>objects\objSet2Spawner</object>
       <object>objects\objSet3Spawner</object>
       <object>objects\objSet4Spawner</object>
       <object>objects\objSet5Spawner</object>
@@ -96,9 +96,9 @@
     <object>objects\objScoreController</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Level1_Death</room>
-    <room>rooms\Level1</room>
     <room>rooms\Logo</room>
+    <room>rooms\Level1</room>
+    <room>rooms\Level1_Death</room>
     <room>rooms\Title_Menu</room>
     <room>rooms\Intro</room>
   </rooms>
