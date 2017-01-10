@@ -5,6 +5,7 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
+    <sound>sound\sndVelociraptor</sound>
     <sound>sound\sndWhip</sound>
     <sound>sound\sndBongo</sound>
     <sound>sound\sndJump</sound>
@@ -34,6 +35,7 @@
     <sprite>sprites\sprPlatformTop</sprite>
     <sprite>sprites\sprTitle</sprite>
     <sprite>sprites\sprMenu</sprite>
+    <sprite>sprites\sprRectangle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -68,6 +70,7 @@
     <object>objects\objLogo</object>
     <object>objects\objTitle</object>
     <object>objects\objMenu</object>
+    <object>objects\objRectangle</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Logo</room>
