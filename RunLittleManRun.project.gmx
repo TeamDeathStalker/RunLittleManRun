@@ -42,10 +42,14 @@
     <background>background\bckLevel1</background>
     <background>background\background1</background>
     <background>background\Title</background>
+    <background>background\bckgrndIntro</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\objLittleManRun</object>
     <object>objects\objLittleManIdle</object>
