@@ -95,7 +95,7 @@ if(moving)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(Level1);
+            <string>room_goto(Title_Menu);
 </string>
           </argument>
         </arguments>
