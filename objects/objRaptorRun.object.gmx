@@ -34,6 +34,7 @@ image_speed = 2;
 hspeed = .3;
 
 randomize();
+audio_play_sound(sndAmbience,1,false);
 </string>
           </argument>
         </arguments>
@@ -70,6 +71,7 @@ vspd=0;
 //jumping
     if(jkeypressed){       
         vspd = -jspd;
+        audio_play_sound(sndJump,1,false)
     }
 }
 else{
