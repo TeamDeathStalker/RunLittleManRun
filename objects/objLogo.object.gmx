@@ -65,12 +65,12 @@ if(moving)
         if(alarm[0]){
         audio_play_sound(sndWhip,1,false)
         }
-        if(moving==false){
-            if(alarm[1]){
-            room_goto(Title_Menu);
-            }
-            else{}
-        }
+        //if(moving==false){
+            // if(alarm[1]){
+            //room_goto(Title_Menu);
+            //}
+            //else{}
+        //}
         
        // move_towards_point(270, 256, 6);
        //vspeed +=.005;
