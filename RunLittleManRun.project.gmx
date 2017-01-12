@@ -45,6 +45,11 @@
     <sprite>sprites\sprTitle</sprite>
     <sprite>sprites\sprMenu</sprite>
     <sprite>sprites\sprRectangle</sprite>
+    <sprites name="MiniGameSlider">
+      <sprite>sprites\sprSliderMain</sprite>
+      <sprite>sprites\sprSliderBarL</sprite>
+      <sprite>sprites\sprSliderBarR</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -94,6 +99,11 @@
     <object>objects\objMenu</object>
     <object>objects\objRectangle</object>
     <object>objects\objScoreController</object>
+    <objects name="MiniGameSlider">
+      <object>objects\objSliderMain</object>
+      <object>objects\objSliderBarL</object>
+      <object>objects\objSliderBarR</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Logo</room>
