@@ -26,6 +26,7 @@
       <sprite>sprites\sprLittleManIdle</sprite>
       <sprite>sprites\sprLittleManJump</sprite>
       <sprite>sprites\sprLittleManHead</sprite>
+      <sprite>sprites\sprite31</sprite>
     </sprites>
     <sprites name="Columns">
       <sprite>sprites\sprColumn1</sprite>
@@ -45,10 +46,14 @@
     <sprite>sprites\sprTitle</sprite>
     <sprite>sprites\sprMenu</sprite>
     <sprite>sprites\sprRectangle</sprite>
-    <sprites name="MiniGameSlider">
+    <sprites name="Mini Game">
       <sprite>sprites\sprSliderMain</sprite>
       <sprite>sprites\sprSliderBarL</sprite>
       <sprite>sprites\sprSliderBarR</sprite>
+      <sprite>sprites\sprW</sprite>
+      <sprite>sprites\sprA</sprite>
+      <sprite>sprites\sprS</sprite>
+      <sprite>sprites\sprD</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -70,6 +75,7 @@
     <objects name="LittleMan">
       <object>objects\objLittleManRun</object>
       <object>objects\objLittleManIdle</object>
+      <object>objects\objLittleManHead</object>
     </objects>
     <objects name="Columns">
       <object>objects\objColumn1</object>
@@ -99,18 +105,22 @@
     <object>objects\objMenu</object>
     <object>objects\objRectangle</object>
     <object>objects\objScoreController</object>
-    <objects name="MiniGameSlider">
+    <objects name="Mini Game">
       <object>objects\objSliderMain</object>
       <object>objects\objSliderBarL</object>
       <object>objects\objSliderBarR</object>
+      <object>objects\objKey</object>
     </objects>
     <object>objects\objCredit</object>
   </objects>
   <rooms name="rooms">
+<<<<<<< HEAD
     <room>rooms\Intro</room>
+=======
+    <room>rooms\Level1_Death</room>
+>>>>>>> origin/newMaster
     <room>rooms\Logo</room>
     <room>rooms\Level1</room>
-    <room>rooms\Level1_Death</room>
     <room>rooms\Title_Menu</room>
   </rooms>
   <help>

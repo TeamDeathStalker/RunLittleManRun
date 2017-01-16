@@ -50,6 +50,7 @@
             <kind>1</kind>
             <string>if (growing = true){
 image_xscale += .5;
+show_debug_message(image_xscale);
 }else
 {
 image_xscale -=.5;
