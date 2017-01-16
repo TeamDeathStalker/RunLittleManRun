@@ -26,6 +26,7 @@
       <sprite>sprites\sprLittleManIdle</sprite>
       <sprite>sprites\sprLittleManJump</sprite>
       <sprite>sprites\sprLittleManHead</sprite>
+      <sprite>sprites\sprite31</sprite>
     </sprites>
     <sprites name="Columns">
       <sprite>sprites\sprColumn1</sprite>
@@ -74,6 +75,7 @@
     <objects name="LittleMan">
       <object>objects\objLittleManRun</object>
       <object>objects\objLittleManIdle</object>
+      <object>objects\objLittleManHead</object>
     </objects>
     <objects name="Columns">
       <object>objects\objColumn1</object>
