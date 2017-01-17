@@ -26,7 +26,6 @@
       <sprite>sprites\sprLittleManIdle</sprite>
       <sprite>sprites\sprLittleManJump</sprite>
       <sprite>sprites\sprLittleManHead</sprite>
-      <sprite>sprites\sprite31</sprite>
     </sprites>
     <sprites name="Columns">
       <sprite>sprites\sprColumn1</sprite>
@@ -46,20 +45,18 @@
     <sprite>sprites\sprTitle</sprite>
     <sprite>sprites\sprMenu</sprite>
     <sprite>sprites\sprRectangle</sprite>
-    <sprites name="Mini Game">
+    <sprites name="MiniGameSlider">
       <sprite>sprites\sprSliderMain</sprite>
       <sprite>sprites\sprSliderBarL</sprite>
       <sprite>sprites\sprSliderBarR</sprite>
-      <sprite>sprites\sprW</sprite>
-      <sprite>sprites\sprA</sprite>
-      <sprite>sprites\sprS</sprite>
-      <sprite>sprites\sprD</sprite>
     </sprites>
+    <sprite>sprites\RaptorFossil</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
     <background>background\background1</background>
     <background>background\Title</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -75,7 +72,6 @@
     <objects name="LittleMan">
       <object>objects\objLittleManRun</object>
       <object>objects\objLittleManIdle</object>
-      <object>objects\objLittleManHead</object>
     </objects>
     <objects name="Columns">
       <object>objects\objColumn1</object>
@@ -105,23 +101,20 @@
     <object>objects\objMenu</object>
     <object>objects\objRectangle</object>
     <object>objects\objScoreController</object>
-    <objects name="Mini Game">
+    <objects name="MiniGameSlider">
       <object>objects\objSliderMain</object>
       <object>objects\objSliderBarL</object>
       <object>objects\objSliderBarR</object>
-      <object>objects\objKey</object>
     </objects>
     <object>objects\objCredit</object>
   </objects>
   <rooms name="rooms">
-<<<<<<< HEAD
-    <room>rooms\Intro</room>
-=======
-    <room>rooms\Level1_Death</room>
->>>>>>> origin/newMaster
     <room>rooms\Logo</room>
+    <room>rooms\Intro</room>
     <room>rooms\Level1</room>
+    <room>rooms\Level1_Death</room>
     <room>rooms\Title_Menu</room>
+    <room>rooms\YouDied</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

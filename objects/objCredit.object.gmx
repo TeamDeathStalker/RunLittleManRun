@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>height=240
+            <string>
+
+height=240
 width=395
 padding=0.5
 
@@ -59,6 +61,32 @@ str=""
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+audio_stop_sound(sndBongo);
+room_goto(Level1)
+audio_play_sound(sndAmbience,1,true)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="2">
       <action>
         <libid>1</libid>
@@ -80,6 +108,9 @@ str=""
     scrollValue+=1
     
     show_debug_message(vspeed)
+    
+    if(scrollValue=1)
+    alarm[0]=90
 </string>
           </argument>
         </arguments>
@@ -166,6 +197,33 @@ str = string_copy(message,ds_list_find_value(start,line), count+ds_list_find_val
 draw_text(x+padding,y+padding-scrollValue, str)
 
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="32">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+
+audio_stop_sound(sndBongo);
+room_goto(Level1)
+audio_play_sound(sndAmbience,1,true)
 </string>
           </argument>
         </arguments>
