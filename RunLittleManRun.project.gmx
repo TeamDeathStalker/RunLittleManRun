@@ -45,11 +45,18 @@
     <sprite>sprites\sprTitle</sprite>
     <sprite>sprites\sprMenu</sprite>
     <sprite>sprites\sprRectangle</sprite>
+    <sprites name="MiniGameSlider">
+      <sprite>sprites\sprSliderMain</sprite>
+      <sprite>sprites\sprSliderBarL</sprite>
+      <sprite>sprites\sprSliderBarR</sprite>
+    </sprites>
+    <sprite>sprites\RaptorFossil</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
     <background>background\background1</background>
     <background>background\Title</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -94,13 +101,24 @@
     <object>objects\objMenu</object>
     <object>objects\objRectangle</object>
     <object>objects\objScoreController</object>
+    <objects name="MiniGameSlider">
+      <object>objects\objSliderMain</object>
+      <object>objects\objSliderBarL</object>
+      <object>objects\objSliderBarR</object>
+    </objects>
+    <object>objects\objCredit</object>
   </objects>
   <rooms name="rooms">
+<<<<<<< HEAD
+=======
+    <room>rooms\Logo</room>
+    <room>rooms\Intro</room>
+>>>>>>> origin/newMaster
     <room>rooms\Level1</room>
     <room>rooms\Logo</room>
     <room>rooms\Level1_Death</room>
     <room>rooms\Title_Menu</room>
-    <room>rooms\Intro</room>
+    <room>rooms\YouDied</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
