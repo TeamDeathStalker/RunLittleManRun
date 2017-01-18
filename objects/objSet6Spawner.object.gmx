@@ -25,14 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>set6Pillar1 = instance_create(1000, 470, objColumn1)
-set6Pillar1Top = instance_create(1000, set6Pillar1.y, objColumn1Top);
+            <string>set6Pillar1 = instance_create(979, 470, objColumn1)
+set6Pillar1Top = instance_create(979, set6Pillar1.y, objColumn1Top);
 
-set6Pillar2 = instance_create(1110, 400, objColumn2);
-set6Pillar2Top = instance_create(1110, set6Pillar2.y +32, objColumn1Top);
+set6Pillar2 = instance_create(1089, 400, objColumn2);
+set6Pillar2Top = instance_create(1089, set6Pillar2.y +32, objColumn1Top);
 
-set6Pillar3 = instance_create(1220, 368, objColumn3);
-set6Pillar3Top = instance_create(1220, set6Pillar3.y+32, objColumn1Top);
+set6Pillar3 = instance_create(1199, 368, objColumn3);
+set6Pillar3Top = instance_create(1199, set6Pillar3.y+32, objColumn1Top);
 
 set6Platform1 = instance_create(1520, 359, objPlatform)
 set6Playform1Top = instance_create(1520, set6Platform1.y+10, objPlatformTop);
@@ -46,25 +46,27 @@ set6Pillar3Top = instance_create(1830, set6Pillar3.y+32, objColumn1Top);
 set6Platform1 = instance_create(2030, 359, objPlatform)
 set6Playform1Top = instance_create(2030, set6Platform1.y+10, objPlatformTop);
 
-set6Pillar1 = instance_create(2500, 470, objColumn1)
-set6Pillar1Top = instance_create(2500, set6Pillar1.y, objColumn1Top);
+set6Pillar1 = instance_create(2400, 470, objColumn1)
+set6Pillar1Top = instance_create(2400, set6Pillar1.y, objColumn1Top);
 
-set6Pillar2 = instance_create(2610, 400, objColumn2);
-set6Pillar2Top = instance_create(2610, set6Pillar2.y +32, objColumn1Top);
+set6Pillar2 = instance_create(2510, 400, objColumn2);
+set6Pillar2Top = instance_create(2510, set6Pillar2.y +32, objColumn1Top);
 
-set6Platform1 = instance_create(2750, 359, objPlatform)
-set6Playform1Top = instance_create(2750, set6Platform1.y+10, objPlatformTop);
+set6Platform1 = instance_create(2650, 359, objPlatform)
+set6Playform1Top = instance_create(2650, set6Platform1.y+10, objPlatformTop);
 
-set6Pillar1 = instance_create(3200, 470, objColumn1)
-set6Pillar1Top = instance_create(3200, set6Pillar1.y, objColumn1Top);
+set6Pillar1 = instance_create(3100, 470, objColumn1)
+set6Pillar1Top = instance_create(3100, set6Pillar1.y, objColumn1Top);
 
-set6Pillar2 = instance_create(3310, 400, objColumn2);
-set6Pillar2Top = instance_create(3310, set6Pillar2.y +32, objColumn1Top);
+set6Pillar2 = instance_create(3210, 400, objColumn2);
+set6Pillar2Top = instance_create(3210, set6Pillar2.y +32, objColumn1Top);
 
-set6Pillar3 = instance_create(3420, 368, objColumn3);
-set6Pillar3Top = instance_create(3420, set6Pillar3.y+32, objColumn1Top);
+set6Pillar3 = instance_create(3320, 368, objColumn3);
+set6Pillar3Top = instance_create(3320, set6Pillar3.y+32, objColumn1Top);
 
-instance_create(3120, 30, objSetSpawner)
+set6Pit = instance_create(3808, 496, objSpikePit)
+
+instance_create(3408, 30, objSetSpawner)
 
 
 

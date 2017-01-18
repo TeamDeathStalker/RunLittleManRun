@@ -25,37 +25,39 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>set2Pillar2 = instance_create(1000, 400, objColumn2);
-set2Pillar2Top = instance_create(1000, set2Pillar2.y +32, objColumn1Top);
+            <string>set2Pillar2 = instance_create(979, 400, objColumn2);
+set2Pillar2Top = instance_create(979, set2Pillar2.y +32, objColumn1Top);
 
-set2Platform1 = instance_create(1400, 359, objPlatform)
-set2Playform1Top = instance_create(1400, set2Platform1.y+10, objPlatformTop);
+set2Platform1 = instance_create(1100, 359, objPlatform)
+set2Playform1Top = instance_create(1100, set2Platform1.y+10, objPlatformTop);
 
-set2Pillar1 = instance_create(1600, 470, objColumn1)
-set2Pillar1Top = instance_create(1600, set2Pillar1.y, objColumn1Top);
+set2Pillar1 = instance_create(1300, 470, objColumn1)
+set2Pillar1Top = instance_create(1300, set2Pillar1.y, objColumn1Top);
 
-set2Pillar1 = instance_create(1800, 470, objColumn1)
-set2Pillar1Top = instance_create(1800, set2Pillar1.y, objColumn1Top);
+set2Pillar1 = instance_create(1500, 470, objColumn1)
+set2Pillar1Top = instance_create(1500, set2Pillar1.y, objColumn1Top);
 
-set2Pillar2 = instance_create(2300, 400, objColumn2);
-set2Pillar2Top = instance_create(2300, set2Pillar2.y +32, objColumn1Top);
+set2Pillar2 = instance_create(1900, 400, objColumn2);
+set2Pillar2Top = instance_create(1900, set2Pillar2.y +32, objColumn1Top);
 
-set2Pillar3 = instance_create(2410, 368, objColumn3);
-set2Pillar3Top = instance_create(2410, set2Pillar3.y+32, objColumn1Top);
+set2Pillar3 = instance_create(2010, 368, objColumn3);
+set2Pillar3Top = instance_create(2010, set2Pillar3.y+32, objColumn1Top);
 
-set2Platform1 = instance_create(2600, 359, objPlatform)
-set2Playform1Top = instance_create(2600, set2Platform1.y+10, objPlatformTop);
+set2Platform1 = instance_create(2200, 359, objPlatform)
+set2Playform1Top = instance_create(2200, set2Platform1.y+10, objPlatformTop);
 
-set2Pillar1 = instance_create(3100, 470, objColumn1)
-set2Pillar1Top = instance_create(3100, set2Pillar1.y, objColumn1Top);
+set2Pillar1 = instance_create(2700, 470, objColumn1)
+set2Pillar1Top = instance_create(2700, set2Pillar1.y, objColumn1Top);
 
-set2Pillar2 = instance_create(3210, 400, objColumn2);
-set2Pillar2Top = instance_create(3210, set2Pillar2.y +32, objColumn1Top);
+set2Pillar2 = instance_create(2810, 400, objColumn2);
+set2Pillar2Top = instance_create(2810, set2Pillar2.y +32, objColumn1Top);
 
-set2Pillar3 = instance_create(3320, 368, objColumn3);
-set2Pillar3Top = instance_create(3320, set2Pillar3.y+32, objColumn1Top);
+set2Pillar3 = instance_create(2920, 368, objColumn3);
+set2Pillar3Top = instance_create(2920, set2Pillar3.y+32, objColumn1Top);
 
-instance_create(3020, 30, objSetSpawner)
+set2Pit = instance_create(3532, 496, objSpikePit)
+
+instance_create(3132, 30, objSetSpawner)
 
 
 </string>

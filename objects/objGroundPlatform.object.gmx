@@ -48,8 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(x&lt;-70)
-  x = 870;
+            <string>if(x&lt;-69)
+  x = 910;
 </string>
           </argument>
         </arguments>
