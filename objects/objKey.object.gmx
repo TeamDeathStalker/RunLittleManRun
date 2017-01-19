@@ -25,34 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index = choose(sprW, sprA, sprS, sprD);
-//sprite_index = choose(sprA);
+            <string>//sprite_index = choose(sprW, sprA, sprS, sprD);
+sprite_index = choose(sprA);
 alarm[0] = 30;
 
 keycount = 0;
 </string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string></string>
           </argument>
         </arguments>
       </action>
@@ -98,7 +76,7 @@ keycount = 0;
           <argument>
             <kind>1</kind>
             <string>keycount += 1;
-if(keycount = 3)
+if(keycount = 7)
 {
 //raptor will kill
 objLittleManIdle.sprite_index = sprCensored;
@@ -147,7 +125,7 @@ objRaptorIdle.image_speed = 0;
           <argument>
             <kind>1</kind>
             <string>keycount += 1;
-if(keycount = 3)
+if(keycount = 7)
 {
 //raptor will kill
 objLittleManIdle.sprite_index = sprCensored;
@@ -196,7 +174,7 @@ objRaptorIdle.image_speed = 0;
           <argument>
             <kind>1</kind>
             <string>keycount += 1;
-if(keycount = 3)
+if(keycount = 7)
 {
 //raptor will kill
 objLittleManIdle.sprite_index = sprCensored;
@@ -260,7 +238,7 @@ alarm[1]=60;
 }
 else if(sprite_index = sprA){
 alarm[0] = 30;
-sprite_index = choose(sprW, sprA, sprS, sprD);
+//sprite_index = choose(sprW, sprA, sprS, sprD);
 x=choose(100, 150, 200, 250, 300, 350);
 y=choose(50,55,60,65,70,75,80,85,90,95,100,105,
 110,115,120,125,130,135,140,145,150,155,160,165,
