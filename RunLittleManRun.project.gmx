@@ -11,6 +11,7 @@
     <sound>sound\sndJump</sound>
     <sound>sound\sndAmbience</sound>
     <sound>sound\sndGameplayMusic</sound>
+    <sound>sound\sndYouDied</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Raptor">
@@ -52,6 +53,7 @@
     </sprites>
     <sprite>sprites\RaptorFossil</sprite>
     <sprite>sprites\sprSquare</sprite>
+    <sprite>sprites\sprSpaceship</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -109,12 +111,16 @@
     </objects>
     <object>objects\objCredit</object>
     <object>objects\objYouDied</object>
+    <object>objects\objEscaped</object>
     <object>objects\objFossil</object>
     <object>objects\objSquare</object>
+    <object>objects\objSquareE</object>
+    <object>objects\objSpaceship</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\YouDied</room>
+    <room>rooms\Escaped</room>
     <room>rooms\Logo</room>
+    <room>rooms\YouDied</room>
     <room>rooms\Intro</room>
     <room>rooms\Level1</room>
     <room>rooms\Level1_Death</room>
