@@ -25,14 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>set1Pillar1 = instance_create(979, 470, objColumn1)
-set1Pillar1Top = instance_create(979, set1Pillar1.y, objColumn1Top);
+            <string>show_debug_message("set 1");
 
-set1Pillar2 = instance_create(1089, 400, objColumn2);
-set1Pillar2Top = instance_create(1089, set1Pillar2.y +32, objColumn1Top);
+set1Pillar1 = instance_create(980, 470, objColumn1)
+set1Pillar1Top = instance_create(980, set1Pillar1.y, objColumn1Top);
 
-set1Pillar3 = instance_create(1199, 368, objColumn3);
-set1Pillar3Top = instance_create(1199, set1Pillar3.y+32, objColumn1Top);
+set1Pillar2 = instance_create(1090, 400, objColumn2);
+set1Pillar2Top = instance_create(1090, set1Pillar2.y +32, objColumn1Top);
+
+set1Pillar3 = instance_create(1200, 368, objColumn3);
+set1Pillar3Top = instance_create(1200, set1Pillar3.y+32, objColumn1Top);
 
 set1Platform1 = instance_create(1500, 359, objPlatform)
 set1Playform1Top = instance_create(1500, set1Platform1.y+10, objPlatformTop);
@@ -67,11 +69,10 @@ set1Pillar2Top = instance_create(3810, set1Pillar2.y +32, objColumn1Top);
 set1Pillar3 = instance_create(3920, 368, objColumn3);
 set1Pillar3Top = instance_create(3920, set1Pillar3.y+32, objColumn1Top);
 
-set1Pit = instance_create(4360, 496, objSpikePit)
+set1Pit = instance_create(4215, 496, objSpikePit)
+set1PitTop = instance_create(4215, 542, objSpikePitTop)
 
-instance_create(3960, 30, objSetSpawner)
-
-
+instance_create(3815, 30, objSetSpawner)
 
 </string>
           </argument>

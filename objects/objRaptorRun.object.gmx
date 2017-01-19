@@ -28,7 +28,7 @@
             <string>///initialize variables
 
 grav = 1;
-jspd = 15;
+jspd = 16;
 vspd = 0;
 image_speed = 2;
 hspeed = .1;

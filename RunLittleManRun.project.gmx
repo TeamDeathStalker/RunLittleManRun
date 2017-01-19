@@ -39,9 +39,12 @@
       <sprite>sprites\sprPlatform</sprite>
       <sprite>sprites\sprPlatformTop</sprite>
     </sprites>
+    <sprites name="SpikePit">
+      <sprite>sprites\sprSpikePitTop</sprite>
+      <sprite>sprites\sprSpikePit</sprite>
+    </sprites>
     <sprite>sprites\sprCensored</sprite>
     <sprite>sprites\sprLogo</sprite>
-    <sprite>sprites\sprSpikePit</sprite>
     <sprite>sprites\sprTitle</sprite>
     <sprite>sprites\sprMenu</sprite>
     <sprite>sprites\sprRectangle</sprite>
@@ -95,7 +98,10 @@
       <object>objects\objSet6Spawner</object>
       <object>objects\objSetSpawner</object>
     </objects>
-    <object>objects\objSpikePit</object>
+    <objects name="SpikePit">
+      <object>objects\objSpikePit</object>
+      <object>objects\objSpikePitTop</object>
+    </objects>
     <object>objects\objLogo</object>
     <object>objects\objTitle</object>
     <object>objects\objMenu</object>
@@ -109,13 +115,9 @@
     <object>objects\objCredit</object>
   </objects>
   <rooms name="rooms">
-<<<<<<< HEAD
-=======
-    <room>rooms\Logo</room>
-    <room>rooms\Intro</room>
->>>>>>> origin/newMaster
     <room>rooms\Level1</room>
     <room>rooms\Logo</room>
+    <room>rooms\Intro</room>
     <room>rooms\Level1_Death</room>
     <room>rooms\Title_Menu</room>
     <room>rooms\YouDied</room>
