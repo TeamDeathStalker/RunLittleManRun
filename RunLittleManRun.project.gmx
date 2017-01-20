@@ -118,6 +118,7 @@
     <object>objects\objSpaceship</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rmChooser</room>
     <room>rooms\Escaped</room>
     <room>rooms\Logo</room>
     <room>rooms\YouDied</room>
