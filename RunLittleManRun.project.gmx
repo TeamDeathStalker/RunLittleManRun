@@ -50,10 +50,6 @@
       <sprite>sprites\sprSliderMain</sprite>
       <sprite>sprites\sprSliderBarL</sprite>
       <sprite>sprites\sprSliderBarR</sprite>
-      <sprite>sprites\sprD</sprite>
-      <sprite>sprites\sprA</sprite>
-      <sprite>sprites\sprS</sprite>
-      <sprite>sprites\sprW</sprite>
     </sprites>
     <sprite>sprites\RaptorFossil</sprite>
     <sprite>sprites\sprSquare</sprite>
@@ -79,7 +75,6 @@
     <objects name="LittleMan">
       <object>objects\objLittleManRun</object>
       <object>objects\objLittleManIdle</object>
-      <object>objects\objLittleManHead</object>
     </objects>
     <objects name="Columns">
       <object>objects\objColumn1</object>
@@ -113,7 +108,6 @@
       <object>objects\objSliderMain</object>
       <object>objects\objSliderBarL</object>
       <object>objects\objSliderBarR</object>
-      <object>objects\objKey</object>
     </objects>
     <object>objects\objCredit</object>
     <object>objects\objYouDied</object>
@@ -124,16 +118,12 @@
     <object>objects\objSpaceship</object>
   </objects>
   <rooms name="rooms">
-<<<<<<< HEAD
     <room>rooms\Escaped</room>
-=======
-    <room>rooms\Level1_Death</room>
-    <room>rooms\YouDied</room>
->>>>>>> origin/newMaster
     <room>rooms\Logo</room>
     <room>rooms\YouDied</room>
     <room>rooms\Intro</room>
     <room>rooms\Level1</room>
+    <room>rooms\Level1_Death</room>
     <room>rooms\Title_Menu</room>
   </rooms>
   <help>
