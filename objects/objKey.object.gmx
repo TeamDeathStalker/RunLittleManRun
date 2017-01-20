@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index = choose(sprW, sprA, sprS, sprD);
-//sprite_index = choose(sprA);
+            <string>//sprite_index = choose(sprW, sprA, sprS, sprD);
+sprite_index = choose(sprA);
 alarm[0] = 30;
 
 keycount = 0;
@@ -85,10 +85,13 @@ sprCensored.image_speed = 0.2;
 objRaptorIdle.sprite_index = sprRaptorIdle;
 sprRaptorIdle.image_index = 0;
 sprRaptorIdle.image_speed = 0.5;
+instance_create(objLittleManIdle.x,450,objLittleManHead);
+instance_destroy();
+alarm[1]=60;
 }
-else if(sprite_index = choose(sprW, sprA, sprS, sprD)){
+else if(sprite_index = sprW){
 alarm[0] = 30;
-//sprite_index = choose(sprW, sprA, sprS, sprD);
+sprite_index = choose(sprW, sprA, sprS, sprD);
 x=choose(100, 150, 200, 250, 300, 350);
 y=choose(50,55,60,65,70,75,80,85,90,95,100,105,
 110,115,120,125,130,135,140,145,150,155,160,165,
@@ -134,10 +137,13 @@ sprCensored.image_speed = 0.2;
 objRaptorIdle.sprite_index = sprRaptorIdle;
 sprRaptorIdle.image_index = 0;
 sprRaptorIdle.image_speed = 0.5;
+instance_create(objLittleManIdle.x,450,objLittleManHead);
+instance_destroy();
+alarm[1]=60;
 }
-else if(sprite_index = choose(sprW, sprA, sprS, sprD)){
+else if(sprite_index = sprS){
 alarm[0] = 30;
-//sprite_index = choose(sprW, sprA, sprS, sprD);
+sprite_index = choose(sprW, sprA, sprS, sprD);
 x=choose(100, 150, 200, 250, 300, 350);
 y=choose(50,55,60,65,70,75,80,85,90,95,100,105,
 110,115,120,125,130,135,140,145,150,155,160,165,
@@ -183,10 +189,13 @@ sprCensored.image_speed = 0.2;
 objRaptorIdle.sprite_index = sprRaptorIdle;
 sprRaptorIdle.image_index = 0;
 sprRaptorIdle.image_speed = 0.5;
+instance_create(objLittleManIdle.x,450,objLittleManHead);
+instance_destroy();
+alarm[1]=60;
 }
-else if(sprite_index = choose(sprW, sprA, sprS, sprD)){
+else if(sprite_index = sprD){
 alarm[0] = 30;
-//sprite_index = choose(sprW, sprA, sprS, sprD);
+sprite_index = choose(sprW, sprA, sprS, sprD);
 x=choose(100, 150, 200, 250, 300, 350);
 y=choose(50,55,60,65,70,75,80,85,90,95,100,105,
 110,115,120,125,130,135,140,145,150,155,160,165,
@@ -236,9 +245,9 @@ instance_create(objLittleManIdle.x,450,objLittleManHead);
 instance_destroy();
 alarm[1]=60;
 }
-else if(sprite_index = choose(sprW, sprA, sprS, sprD)){
+else if(sprite_index = sprA){
 alarm[0] = 30;
-//sprite_index = choose(sprW, sprA, sprS, sprD);
+sprite_index = choose(sprW, sprA, sprS, sprD);
 x=choose(100, 150, 200, 250, 300, 350);
 y=choose(50,55,60,65,70,75,80,85,90,95,100,105,
 110,115,120,125,130,135,140,145,150,155,160,165,
