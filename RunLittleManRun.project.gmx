@@ -39,9 +39,9 @@
       <sprite>sprites\sprPlatform</sprite>
       <sprite>sprites\sprPlatformTop</sprite>
     </sprites>
-    <sprite>sprites\sprCensored</sprite>
     <sprite>sprites\sprLogo</sprite>
     <sprite>sprites\sprSpikePit</sprite>
+    <sprite>sprites\sprCensored</sprite>
     <sprite>sprites\sprTitle</sprite>
     <sprite>sprites\sprMenu</sprite>
     <sprite>sprites\sprRectangle</sprite>
@@ -101,18 +101,18 @@
       <object>objects\objSet6Spawner</object>
       <object>objects\objSetSpawner</object>
     </objects>
-    <object>objects\objSpikePit</object>
-    <object>objects\objLogo</object>
-    <object>objects\objTitle</object>
-    <object>objects\objMenu</object>
-    <object>objects\objRectangle</object>
-    <object>objects\objScoreController</object>
     <objects name="MiniGameSlider">
       <object>objects\objSliderMain</object>
       <object>objects\objSliderBarL</object>
       <object>objects\objSliderBarR</object>
       <object>objects\objKey</object>
     </objects>
+    <object>objects\objSpikePit</object>
+    <object>objects\objLogo</object>
+    <object>objects\objTitle</object>
+    <object>objects\objMenu</object>
+    <object>objects\objRectangle</object>
+    <object>objects\objScoreController</object>
     <object>objects\objCredit</object>
     <object>objects\objYouDied</object>
     <object>objects\objFossil</object>
