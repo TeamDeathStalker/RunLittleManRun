@@ -57,6 +57,8 @@ image_xscale -=.5;
 if (image_xscale &lt; 0){
 growing = true;}
 
+
+show_debug_message(image_xscale);
 </string>
           </argument>
         </arguments>
