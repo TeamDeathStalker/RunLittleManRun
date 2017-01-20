@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>audio_stop_sound(sndBongo)
 audio_stop_sound(sndAmbience)
-x=340
-y=555
+x=338
+y=530
 </string>
           </argument>
         </arguments>
