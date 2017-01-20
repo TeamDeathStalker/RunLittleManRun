@@ -41,6 +41,7 @@
     </sprites>
     <sprites name="SpikePit">
       <sprite>sprites\sprSpikePitTop</sprite>
+      <sprite>sprites\sprSpikePitTop2</sprite>
       <sprite>sprites\sprSpikePit</sprite>
     </sprites>
     <sprite>sprites\sprCensored</sprite>
@@ -54,6 +55,7 @@
       <sprite>sprites\sprSliderBarR</sprite>
     </sprites>
     <sprite>sprites\RaptorFossil</sprite>
+    <sprite>sprites\sprSquare</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -101,6 +103,7 @@
     <objects name="SpikePit">
       <object>objects\objSpikePit</object>
       <object>objects\objSpikePitTop</object>
+      <object>objects\objSpikePitTop2</object>
     </objects>
     <object>objects\objLogo</object>
     <object>objects\objTitle</object>
@@ -113,14 +116,17 @@
       <object>objects\objSliderBarR</object>
     </objects>
     <object>objects\objCredit</object>
+    <object>objects\objYouDied</object>
+    <object>objects\objFossil</object>
+    <object>objects\objSquare</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Level1_Death</room>
     <room>rooms\Level1</room>
+    <room>rooms\YouDied</room>
     <room>rooms\Logo</room>
     <room>rooms\Intro</room>
-    <room>rooms\Level1_Death</room>
     <room>rooms\Title_Menu</room>
-    <room>rooms\YouDied</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

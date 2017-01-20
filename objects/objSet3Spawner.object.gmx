@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>show_debug_message("set 3");
+            <string>///Set 3 spawn order
+
+show_debug_message("set 3");
 
 set3Pillar1 = instance_create(979, 470, objColumn1)
 set3Pillar1Top = instance_create(979, set3Pillar1.y, objColumn1Top);
@@ -61,7 +63,8 @@ set3Pillar3 = instance_create(3020, 368, objColumn3);
 set3Pillar3Top = instance_create(3020, set3Pillar3.y+32, objColumn1Top);
 
 set3Pit = instance_create(3655, 496, objSpikePit)
-set3PitTop = instance_create(3655, 542, objSpikePitTop)
+set3PitTop = instance_create(3655, 485, objSpikePitTop)
+set3PitTop2 = instance_create(3655, 523, objSpikePitTop2)
 
 instance_create(3255, 30, objSetSpawner)
 

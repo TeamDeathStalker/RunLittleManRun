@@ -25,13 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///initialize variables
+            <string>///Initialize variables
 
 grav = 1;
 jspd = 16;
 vspd = 0;
 image_speed = 2;
-hspeed = .1;
+hspeed = .2;
 
 randomize();
 
@@ -58,12 +58,14 @@ audio_play_sound(sndBongo,1,true);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///jump and collisions
+            <string>///Jump and collisons
 
+//sets keypress
 var jkeypressed = keyboard_check_pressed(vk_space);
 var jkeyheld = keyboard_check(vk_space);    
 
 
+//collison with top of objects
 if(place_meeting(x, y+1, objGround) or place_meeting(x, y+1, objColumn1Top)
 or place_meeting(x, y+1, objPlatformTop))
 {
@@ -93,34 +95,16 @@ if( sprite_index == sprRaptorRun )
 {
 if (place_meeting(x+hspeed,y-8,objColumnParent) or place_meeting(x+hspeed, y-8, objPlatform))
 {
-    //while(!place_meeting(x+sign(hspd),y-8,objColumnParent) or (!place_meeting(x+sign(hspd), y-8, objPlatform))){
-        //x+=sign(hspd);
-   // }
     hspeed = -5;
     sprite_index = sprRaptorDie;
     image_index = 0;
     image_speed = 0.5;     
 }
+}
 //collision with Little Man    
 if distance_to_object(objLittleManRun) &lt; 2
 {
     room_goto(Level1_Death)
-
-    //background_hspeed[1] = 0;
-    //objPlatform.hspeed = 0;
-    //objGroundPlatform.hspeed = 0;
-    //objSetSpawner.instance_destroy();
-
-    //objLittleManRun.hspeed = 0;
-    //objLittleManRun.sprite_index = sprLittleManIdle;
-    
-    //objRaptorRun.hspeed = 0;
-    //sprite_index = sprRaptorAttack;
-    //image_index = 0;
-    //image_speed = 0.5;
-    
-    //objColumnParent.hspeed = 0;
-}
 }
 //raptor die
 if( sprite_index == sprRaptorDie)
@@ -129,22 +113,24 @@ if( sprite_index == sprRaptorDie)
         sprite_index = sprRaptorDead;
       }
 }
-//raptor attack  
-//if(sprite_index == sprRaptorAttack)
-//{   
-    //if(image_index &gt;=23){
-        //sprite_index = sprRaptorIdle;
-        //image_index = 0;
-        //image_speed = 0.5;        
-    //}
-//}
-//censored
-//if(sprite_index == sprRaptorIdle)
-//{
-    //objLittleManRun.sprite_index = sprCensored;
-    //sprCensored.image_index = 0;
-    //sprCensored.image_speed = 0.2;
-//}       
+
+//collison with spike pit
+if (place_meeting(x+hspeed,y,objSpikePitTop)) 
+{
+    vspeed = -20;
+    hspeed = -5;    
+}
+
+//collison with spike pit top
+if (place_meeting(x+hspeed,y,objSpikePitTop2)) 
+{
+    vspeed = 0;
+    hspeed = -5;
+    sprite_index = sprRaptorDie;
+    image_index = 0;
+    image_speed = 0.5;     
+}
+     
      
             
 
