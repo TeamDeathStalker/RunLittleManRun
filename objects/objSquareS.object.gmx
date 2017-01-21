@@ -28,7 +28,7 @@
             <string>audio_stop_sound(sndBongo)
 audio_stop_sound(sndAmbience)
 x=338
-y=530
+y=524
 </string>
           </argument>
         </arguments>
@@ -74,13 +74,13 @@ y=530
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(x==340){
+            <string>if(x==338){
 x=380
-y=555
+y=524
 }
 else{
-x=340
-y=555
+x=338
+y=524
 }
 </string>
           </argument>
@@ -104,13 +104,13 @@ y=555
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(x==340){
+            <string>if(x==338){
 x=380
-y=555
+y=524
 }
 else{
-x=340
-y=555
+x=338
+y=524
 }
 </string>
           </argument>
@@ -134,12 +134,13 @@ y=555
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(x==340){
+            <string>if(x==338){
 room_goto(Level1)
 audio_play_sound(sndAmbience,1,true)
 alarm[1]=90
 }
 else{
+audio_stop_all()
 room_goto(Credits)
 }
 </string>
@@ -164,13 +165,14 @@ room_goto(Credits)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(x==179){
+            <string>if(x==338){
 room_goto(Level1)
 audio_play_sound(sndAmbience,1,true)
 alarm[1]=90
 }
 else{
-
+audio_stop_all()
+room_goto(Credits)
 }
 </string>
           </argument>

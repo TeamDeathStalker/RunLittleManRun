@@ -140,6 +140,7 @@ audio_play_sound(sndAmbience,1,true)
 alarm[1]=90
 }
 else if(x==224){
+audio_stop_all();
 room_goto(Credits)
 }
 </string>
@@ -170,7 +171,8 @@ audio_play_sound(sndAmbience,1,true)
 alarm[1]=90
 }
 else{
-
+audio_stop_all();
+room_goto(Credits)
 }
 </string>
           </argument>
