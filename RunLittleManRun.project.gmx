@@ -11,6 +11,12 @@
     <sound>sound\sndJump</sound>
     <sound>sound\sndAmbience</sound>
     <sound>sound\sndGameplayMusic</sound>
+<<<<<<< HEAD
+=======
+    <sound>sound\sndYouDied</sound>
+    <sound>sound\sndElevatorMusic</sound>
+    <sound>sound\sndManBeingEaten</sound>
+>>>>>>> origin/newMaster
   </sounds>
   <sprites name="sprites">
     <sprites name="Raptor">
@@ -56,6 +62,11 @@
     </sprites>
     <sprite>sprites\RaptorFossil</sprite>
     <sprite>sprites\sprSquare</sprite>
+<<<<<<< HEAD
+=======
+    <sprite>sprites\sprSpaceship</sprite>
+    <sprite>sprites\sprChef</sprite>
+>>>>>>> origin/newMaster
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -110,6 +121,7 @@
     <object>objects\objMenu</object>
     <object>objects\objRectangle</object>
     <object>objects\objScoreController</object>
+<<<<<<< HEAD
     <objects name="MiniGameSlider">
       <object>objects\objSliderMain</object>
       <object>objects\objSliderBarL</object>
@@ -119,6 +131,19 @@
     <object>objects\objYouDied</object>
     <object>objects\objFossil</object>
     <object>objects\objSquare</object>
+=======
+    <object>objects\objIntro</object>
+    <object>objects\objCredits</object>
+    <object>objects\objYouDied</object>
+    <object>objects\objEscaped</object>
+    <object>objects\objSuccess</object>
+    <object>objects\objFossil</object>
+    <object>objects\objSquare</object>
+    <object>objects\objSquareE</object>
+    <object>objects\objSquareS</object>
+    <object>objects\objSpaceship</object>
+    <object>objects\objChef</object>
+>>>>>>> origin/newMaster
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1</room>
@@ -127,6 +152,8 @@
     <room>rooms\Level1_Death</room>
     <room>rooms\Intro</room>
     <room>rooms\Title_Menu</room>
+    <room>rooms\Credits</room>
+    <room>rooms\Success</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

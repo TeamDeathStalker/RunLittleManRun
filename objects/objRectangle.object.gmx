@@ -173,6 +173,10 @@ y=y-80;
 room_goto(Intro);
 
 }
+if(y&gt;498){
+audio_stop_sound(sndBongo)
+room_goto(Credits)
+}
 </string>
           </argument>
         </arguments>

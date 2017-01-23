@@ -76,7 +76,12 @@ str=""
         <arguments>
           <argument>
             <kind>1</kind>
+<<<<<<< HEAD
             <string>instance_create(142,614,objSquare)
+=======
+            <string>instance_create(179,697,objSquare)
+
+>>>>>>> origin/newMaster
 </string>
           </argument>
         </arguments>
@@ -247,7 +252,7 @@ draw_text(x+padding,y+padding-scrollValue, str)
             <string>
 
 audio_stop_sound(sndBongo);
-room_goto(Level1)
+//room_goto(Level1)
 audio_play_sound(sndAmbience,1,true)
 </string>
           </argument>
