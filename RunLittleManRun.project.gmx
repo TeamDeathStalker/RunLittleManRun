@@ -137,8 +137,8 @@
     <object>objects\objChef</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Level1_Death</room>
     <room>rooms\rmChooser</room>
+    <room>rooms\Level1_Death</room>
     <room>rooms\Level1</room>
     <room>rooms\YouDied</room>
     <room>rooms\Logo</room>

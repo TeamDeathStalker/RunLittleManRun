@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>if ( x &gt; 792){
-room_goto(addroom);
+room_goto(Escaped);
+}
 </string>
           </argument>
         </arguments>
