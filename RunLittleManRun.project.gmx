@@ -137,10 +137,10 @@
     <object>objects\objChef</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Level1_Death</room>
     <room>rooms\Level1</room>
     <room>rooms\YouDied</room>
     <room>rooms\Logo</room>
-    <room>rooms\Level1_Death</room>
     <room>rooms\Intro</room>
     <room>rooms\Title_Menu</room>
     <room>rooms\Credits</room>
