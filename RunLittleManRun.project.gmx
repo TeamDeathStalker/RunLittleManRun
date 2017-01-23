@@ -138,6 +138,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\Level1_Death</room>
+    <room>rooms\rmChooser</room>
     <room>rooms\Level1</room>
     <room>rooms\YouDied</room>
     <room>rooms\Logo</room>
@@ -145,6 +146,7 @@
     <room>rooms\Title_Menu</room>
     <room>rooms\Credits</room>
     <room>rooms\Success</room>
+    <room>rooms\Escaped</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
