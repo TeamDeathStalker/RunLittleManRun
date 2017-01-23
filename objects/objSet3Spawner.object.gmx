@@ -38,7 +38,7 @@ set3Pillar2Top = instance_create(1089, set3Pillar2.y +32, objColumn1Top);
 set3Pillar2 = instance_create(1199, 400, objColumn2);
 set3Pillar2Top = instance_create(1199, set3Pillar2.y +32, objColumn1Top);
 
-set3Pillar3 = instance_create(1300, 368, objColumn3);
+set3Pillar3 = instance_create(1309, 368, objColumn3);
 set3Pillar3Top = instance_create(1309, set3Pillar3.y+32, objColumn1Top);
 
 set3Platform1 = instance_create(1600, 359, objPlatform)
@@ -63,7 +63,7 @@ set3Pillar3 = instance_create(3020, 368, objColumn3);
 set3Pillar3Top = instance_create(3020, set3Pillar3.y+32, objColumn1Top);
 
 set3Pit = instance_create(3655, 496, objSpikePit)
-set3PitTop = instance_create(3655, 485, objSpikePitTop)
+set3PitTop = instance_create(3655, 455, objSpikePitTop)
 set3PitTop2 = instance_create(3655, 523, objSpikePitTop2)
 
 instance_create(3255, 30, objSetSpawner)

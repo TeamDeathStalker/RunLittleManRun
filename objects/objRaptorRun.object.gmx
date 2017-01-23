@@ -3,7 +3,7 @@
   <spriteName>sprRaptorRun</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-15</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -30,6 +30,7 @@
 grav = 1;
 jspd = 16;
 vspd = 0;
+inPit = 0;
 image_speed = 2;
 hspeed = .2;
 
@@ -66,13 +67,14 @@ var jkeyheld = keyboard_check(vk_space);
 
 
 //collison with top of objects
+if(inPit==0)
 if(place_meeting(x, y+1, objGround) or place_meeting(x, y+1, objColumn1Top)
 or place_meeting(x, y+1, objPlatformTop))
 {
 vspd=0;
 
 //jumping
-    if(jkeypressed){       
+    if(jkeypressed &amp;&amp; sprite_index != sprRaptorDie &amp;&amp; sprite_index != sprRaptorDead){       
         vspd = -jspd;
         audio_play_sound(sndJump,1,false)
     }
@@ -88,7 +90,7 @@ if(vspd &lt; 0) &amp;&amp; (!jkeyheld){
     vspd = max(vspd, 0)
 }
 
-vspeed = vspd;
+//vspeed = vspd;
 
 //collision with columns
 if( sprite_index == sprRaptorRun )
@@ -115,21 +117,29 @@ if( sprite_index == sprRaptorDie)
 }
 
 //collison with spike pit
-if (place_meeting(x+hspeed,y,objSpikePitTop)) 
+if (place_meeting(x+hspeed,y,objSpikePitTop) &amp;&amp; inPit = 0) 
 {
-    vspeed = -20;
-    hspeed = -5;    
+    inPit=1;
+    vspd= 7;
+    hspeed = -5;
+    show_debug_message(vspeed)
+    show_debug_message(vspd)    
 }
 
 //collison with spike pit top
 if (place_meeting(x+hspeed,y,objSpikePitTop2)) 
 {
-    vspeed = 0;
+    vspd = 0;
     hspeed = -5;
     sprite_index = sprRaptorDie;
     image_index = 0;
-    image_speed = 0.5;     
+    image_speed = 0.5;   
+    with(objSpikePitTop2){
+        instance_destroy();
+    }  
 }
+
+vspeed = vspd;
      
      
             

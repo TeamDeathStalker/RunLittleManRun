@@ -121,7 +121,6 @@
     <object>objects\objSquare</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Level1_Death</room>
     <room>rooms\Level1</room>
     <room>rooms\YouDied</room>
     <room>rooms\Logo</room>

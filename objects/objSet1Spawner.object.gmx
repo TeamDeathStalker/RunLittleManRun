@@ -72,7 +72,7 @@ set1Pillar3 = instance_create(3920, 368, objColumn3);
 set1Pillar3Top = instance_create(3920, set1Pillar3.y+32, objColumn1Top);
 
 set1Pit = instance_create(4215, 496, objSpikePit)
-set1PitTop = instance_create(4215, 485, objSpikePitTop)
+set1PitTop = instance_create(4215, 455, objSpikePitTop)
 set1PitTop2 = instance_create(4215, 523, objSpikePitTop2)
 
 instance_create(3815, 30, objSetSpawner)
