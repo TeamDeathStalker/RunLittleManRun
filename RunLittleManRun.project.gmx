@@ -120,17 +120,12 @@
       <object>objects\objSliderBarL</object>
       <object>objects\objSliderBarR</object>
     </objects>
-    <object>objects\objCredit</object>
-    <object>objects\objYouDied</object>
     <object>objects\objFossil</object>
-    <object>objects\objSquare</object>
     <object>objects\objIntro</object>
     <object>objects\objCredits</object>
-    <object>objects\objYouDied</object>
     <object>objects\objEscaped</object>
     <object>objects\objSuccess</object>
     <object>objects\objFossil</object>
-    <object>objects\objSquare</object>
     <object>objects\objSquareE</object>
     <object>objects\objSquareS</object>
     <object>objects\objSpaceship</object>
