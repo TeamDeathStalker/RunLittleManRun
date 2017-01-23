@@ -56,6 +56,10 @@
       <sprite>sprites\sprSliderMain</sprite>
       <sprite>sprites\sprSliderBarL</sprite>
       <sprite>sprites\sprSliderBarR</sprite>
+      <sprite>sprites\sprA</sprite>
+      <sprite>sprites\sprD</sprite>
+      <sprite>sprites\sprS</sprite>
+      <sprite>sprites\sprW</sprite>
     </sprites>
     <sprite>sprites\RaptorFossil</sprite>
     <sprite>sprites\sprSquare</sprite>
@@ -82,6 +86,7 @@
     <objects name="LittleMan">
       <object>objects\objLittleManRun</object>
       <object>objects\objLittleManIdle</object>
+      <object>objects\objLittleManHead</object>
     </objects>
     <objects name="Columns">
       <object>objects\objColumn1</object>
@@ -119,6 +124,7 @@
       <object>objects\objSliderMain</object>
       <object>objects\objSliderBarL</object>
       <object>objects\objSliderBarR</object>
+      <object>objects\objKey</object>
     </objects>
     <object>objects\objFossil</object>
     <object>objects\objIntro</object>
