@@ -52,12 +52,25 @@ image_speed = .35
             <kind>1</kind>
             <string>///Little Man Logic for getting past obstacles
 
+
+if(place_meeting(x, y+1, objGround)){
+    vspeed=0;
+    y=458-22;
+}
+
 //get over columns
-if( collision_line(x,y, x+110, y, objColumnParent, true, true))
+if( collision_line(x,y, x+120, y, objColumnParent, true, true))
+{
+    vspeed =-5;
+    sprite_index=sprLittleManJump;
+}
+if( collision_line(x,y, x+110, y+60, objColumnParent, true, true))
 {
     vspeed =-3;
     sprite_index=sprLittleManJump;
 }
+
+
 //change sprite to run
 else
 {
@@ -65,7 +78,7 @@ else
      sprite_index=sprLittleManRun;
 }
 
-if(y&lt;455 &amp;&amp; not collision_line(x,y, x, y+5, objColumnParent, true, true) &amp;&amp; vspeed==0)
+if(y&lt;436 &amp;&amp; not collision_line(x,y, x, y+5, objColumnParent, true, true) &amp;&amp; vspeed==0)
 {
     vspeed = 5;
      sprite_index=sprLittleManJump;
