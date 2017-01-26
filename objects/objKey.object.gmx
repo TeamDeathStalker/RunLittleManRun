@@ -36,29 +36,6 @@ keycount = 0;
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>show_debug_message("You Lose");
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="9" enumb="87">
       <action>
         <libid>1</libid>
@@ -80,15 +57,10 @@ keycount = 0;
 if(keycount = 3 &amp;&amp; sprite_index = sprW)
 {
 //raptor will kill
-objLittleManIdle.sprite_index = sprCensored;
-objLittleManIdle.image_index = 0;
-objLittleManIdle.image_speed = 0;
-objRaptorIdle.sprite_index = sprRaptorIdle;
-objRaptorIdle.image_index = 0;
-objRaptorIdle.image_speed = 0.5;
-instance_create(objLittleManIdle.x,450,objLittleManHead);
-instance_destroy();
-alarm[1]=60;
+audio_play_sound(sndManBeingEaten,1,false);
+objRaptorIdle.sprite_index = sprRaptorAttack;
+    image_index = 0;
+    image_speed = 0.03; 
 }
 else if(sprite_index = sprW){
 alarm[0] = 30;
@@ -130,15 +102,10 @@ objRaptorIdle.image_speed = 0;
 if(keycount = 3  &amp;&amp; sprite_index = sprS)
 {
 //raptor will kill
-objLittleManIdle.sprite_index = sprCensored;
-objLittleManIdle.image_index = 0;
-objLittleManIdle.image_speed = 0;
-objRaptorIdle.sprite_index = sprRaptorIdle;
-objRaptorIdle.image_index = 0;
-objRaptorIdle.image_speed = 0.5;
-instance_create(objLittleManIdle.x,450,objLittleManHead);
-instance_destroy();
-alarm[1]=60;
+audio_play_sound(sndManBeingEaten,1,false);
+objRaptorIdle.sprite_index = sprRaptorAttack;
+    image_index = 0;
+    image_speed = 0.03; 
 }
 else if(sprite_index = sprS){
 alarm[0] = 30;
@@ -180,15 +147,10 @@ objRaptorIdle.image_speed = 0;
 if(keycount = 3 &amp;&amp; sprite_index = sprD)
 {
 //raptor will kill
-objLittleManIdle.sprite_index = sprCensored;
-objLittleManIdle.image_index = 0;
-objLittleManIdle.image_speed = 0;
-objRaptorIdle.sprite_index = sprRaptorIdle;
-objRaptorIdle.image_index = 0;
-objRaptorIdle.image_speed = 0.5;
-instance_create(objLittleManIdle.x,450,objLittleManHead);
-instance_destroy();
-alarm[1]=60;
+audio_play_sound(sndManBeingEaten,1,false);
+objRaptorIdle.sprite_index = sprRaptorAttack;
+    image_index = 0;
+    image_speed = 0.03;
 }
 else if(sprite_index = sprD){
 alarm[0] = 30;
@@ -230,15 +192,10 @@ objRaptorIdle.image_speed = 0;
 if(keycount = 3 &amp;&amp; sprite_index = sprA)
 {
 //raptor will kill
-objLittleManIdle.sprite_index = sprCensored;
-objLittleManIdle.image_index = 0;
-objLittleManIdle.image_speed = 0;
-objRaptorIdle.sprite_index = sprRaptorIdle;
-objRaptorIdle.image_index = 0;
-objRaptorIdle.image_speed = 0.5;
-instance_create(objLittleManIdle.x,450,objLittleManHead);
-instance_destroy();
-alarm[1]=60;
+audio_play_sound(sndManBeingEaten,1,false);
+objRaptorIdle.sprite_index = sprRaptorAttack;
+    image_index = 0;
+    image_speed = 0.03; 
 }
 else if(sprite_index = sprA){
 alarm[0] = 30;
