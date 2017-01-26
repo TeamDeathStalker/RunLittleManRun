@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>///Raptor attack
 
+/*
 sprite_index = sprRaptorAttack;
     image_index = 0;
     image_speed = 0.5;
@@ -40,7 +41,7 @@ if(image_index &gt;=22)
     sprRaptorIdle.image_index = 0;
     sprRaptorIdle.image_speed = 0.5;        
 }
-    
+/*    
     
 </string>
           </argument>

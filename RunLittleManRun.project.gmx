@@ -132,6 +132,7 @@
     <object>objects\objEscaped</object>
     <object>objects\objSuccess</object>
     <object>objects\objSquareE</object>
+    <object>objects\objSquareY</object>
     <object>objects\objSquareS</object>
     <object>objects\objSpaceship</object>
     <object>objects\objChef</object>
