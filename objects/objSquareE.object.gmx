@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>audio_stop_sound(sndBongo)
 audio_stop_sound(sndAmbience)
-x=340
-y=555
+x=177
+y=664
 </string>
           </argument>
         </arguments>
@@ -74,13 +74,13 @@ y=555
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(x==340){
-x=380
-y=555
+            <string>if(x==177){
+x=217
+y=664
 }
 else{
-x=340
-y=555
+x=177
+y=664
 }
 </string>
           </argument>
@@ -104,13 +104,13 @@ y=555
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(x==340){
-x=380
-y=555
+            <string>if(x==177){
+x=217
+y=664
 }
 else{
-x=340
-y=555
+x=177
+y=664
 }
 </string>
           </argument>
@@ -134,43 +134,13 @@ y=555
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(x==340){
+            <string>if(x==177){
 room_goto(Level1)
 audio_play_sound(sndAmbience,1,true)
 alarm[1]=90
 }
 else{
 room_goto(Credits)
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="9" enumb="13">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if(x==179){
-room_goto(Level1)
-audio_play_sound(sndAmbience,1,true)
-alarm[1]=90
-}
-else{
-
 }
 </string>
           </argument>

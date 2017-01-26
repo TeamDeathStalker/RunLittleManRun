@@ -10,11 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-<<<<<<< HEAD
-  <code>room_goto(Level1);</code>
-=======
-  <code>room_goto(Level1_Death);</code>
->>>>>>> origin/newMaster
+  <code>room_goto(Level1_Death)</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

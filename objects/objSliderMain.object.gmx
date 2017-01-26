@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x,y,objSliderBarL);
+            <string>tries = 0;
+
+instance_create(x,y,objSliderBarL);
 instance_create(x+256,y,objSliderBarR);
 </string>
           </argument>
@@ -56,9 +58,23 @@ if(tries = 3){
     objLittleManIdle.hspeed = 5;
     objRaptorIdle.image_index = 0;
     objRaptorIdle.image_speed = 0;
+    
+     with(objSliderBarL)
+    {
+        instance_destroy();
+    }
+    with(objSliderBarR)
+    {
+        instance_destroy();
+    }
+    with(objSliderMain)
+    {
+        instance_destroy();
+    }
 }
 else{
     if(objSliderBarL.image_xscale &gt; 15 )
+    {
 
     instance_create(200,200,objKey);
     with(objSliderBarL)
@@ -73,8 +89,8 @@ else{
     {
         instance_destroy();
     }
+    }
 }
-
 </string>
           </argument>
         </arguments>
