@@ -44,14 +44,20 @@ line=0
 scrollValue=0
 
 //set the message
-message="Blah!
-blah blah blah blah blah blah blah blah blah 
-blah blah blah blah blah blah blah blah blah 
-blah blah blah blah blah blah blah blah blah 
-Nuclear Explosion blah blah blah blah blah blah blah 
-blah blah blah blah blah Raptors blah blah blah blah 
+message="On the planet of the raptors….
 
-You don't care about the story anyway"
+   Deep in the jungle, Jimmy, the genetically designed, and hyper-intelligent raptor, 
+   
+   sat salivating over an empty dinner table. He heard a rustle in the bushes.
+   
+A very lean, muscly man was pilfering his herbs. Jimmy calmly snuck up and tapped him 
+
+on the shoulder. The man quickly turned around.
+
+In a sinister voice, Jimmy exclaimed…
+
+Run, little man, run!
+"
 
 str=""
 
@@ -110,7 +116,7 @@ audio_play_sound(sndAmbience,1,true)
     show_debug_message(vspeed)
     
     if(scrollValue=1)
-    alarm[0]=90
+    alarm[0]=250
 </string>
           </argument>
         </arguments>
