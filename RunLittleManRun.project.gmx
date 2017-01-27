@@ -138,18 +138,7 @@
     <object>objects\objChef</object>
     <object>objects\objYouDied</object>
   </objects>
-  <rooms name="rooms">
-    <room>rooms\rmChooser</room>
-    <room>rooms\Level1</room>
-    <room>rooms\Level1_Death</room>
-    <room>rooms\Logo</room>
-    <room>rooms\Success</room>
-    <room>rooms\Title_Menu</room>
-    <room>rooms\YouDied</room>
-    <room>rooms\Intro</room>
-    <room>rooms\Escaped</room>
-    <room>rooms\Credits</room>
-  </rooms>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>

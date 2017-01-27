@@ -44,22 +44,171 @@ line=0
 scrollValue=0
 
 //set the message
-message="Credits Credits Credits Credits Credits Credits 
-Credits Credits Credits Credits Credits Credits Credits Credits 
-Credits Credits Credits Credits Credits Credits Credits Credits 
-Credits Credits Credits Credits Credits Credits Credits Credits 
-Credits Credits Credits Credits Credits Credits Credits Credits 
-Credits Credits Credits Credits Credits Credits Credits Credits "
+message="Credits
+
+Team DeathStalker
+
+Team Members
+James McIntosh
+Cory Kutschker
+Ryan Royko
+
+Team Lead
+James McIntosh
+
+Graphics
+James McIntosh
+Cory Kutschker
+Ryan Royko
+
+Sound &amp; Music
+Cory Kutschker
+
+Programming
+James McIntosh
+Cory Kutschker
+Ryan Royko
+
+
+Sprites/Graphics
+Sprite Logo
+www.Sprite.com
+
+
+Raptor
+AFRArtist
+https://www.gamedevmarket.net/
+
+
+Little Man
+HomoErectus
+http://www.canstockphoto.com/
+
+
+Blood Dripping
+Vectorstash.com
+http://www.vectorstash.com
+
+
+Platform and Ground
+Zipup.me
+
+Columns
+EntropyPhi
+
+Smiling Raptor Gif
+Jurassic Park
+Steven Spielberg
+
+Fern
+www.canadianflowerdelivery.com/fern.aspx
+
+Space Bar
+http://soupy.tv/
+
+WASD Keys
+http://www.xmptgames.co.uk/
+
+
+Tribeca font
+Mediengestaltung
+
+
+Scorpion Logo
+Tatuaje
+
+
+Raptor Fossil
+JuanIglesias90
+
+
+Jungle Spaceship
+Kadijah Bodle
+
+
+Raptor Chef
+Mrkoendb
+
+
+Level 1 Background
+Andigr
+
+Title Menu Background
+Alexander Osokin
+
+
+Sounds &amp; Music
+
+
+Bongos
+frogdude34
+http://www.looperman.com/
+
+
+Jungle clips
+Partners In Rhyme
+https://www.freesoundeffects.com/
+
+Evil Laugh
+Himan
+http://soundbible.com/
+
+Forest clip
+Partners In Rhyme
+https://www.freesoundeffects.com/
+
+Wilhelm Scream
+Alexander
+http://www.orangefreesounds.com/
+
+Whip Crack
+Snottyboi
+http://soundbible.com/
+
+Deep Male Burp
+Mike Koenig
+http://soundbible.com/
+
+Eating
+Caroline Ford
+http://soundbible.com/
+
+Animal eating
+https://s3.amazonaws.com/freesoundeffects/
+
+Jump
+snottyboy
+http://soundbible.com/1343-Jump.html
+
+Heart rate monitor flatline
+Mike Koenig
+http://soundbible.com/
+
+Velociraptor scream
+http://www.soundboard.com
+
+Bite
+Mike Koenig
+http://soundbible.com/
+
+Dragon Bite
+Gregory Weir
+http://soundbible.com/
+
+Gallery – Elevator music (credits)
+KingMixer
+http://www.zedge.net"
 
 str=""
 
-alarm[1]=500
+alarm[3]=2710
+alarm[2]=270
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="1">
+    <event eventtype="2" enumb="4">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -84,6 +233,66 @@ room_goto(Title_Menu);
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_stop_sound(sndElevatorMusic)
+with instance_create(350,224,objRaptorSmile){image_speed=0.3}
+audio_play_sound(sndEvilLaugh,1,false)
+
+
+alarm[4]=150
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_create(450,384,objSprite)
+
+with(objSprite){
+if(y&lt;0){
+instance_destroy()
+
+}
+}
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="2">
       <action>
         <libid>1</libid>
@@ -101,13 +310,20 @@ room_goto(Title_Menu);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(count&gt;250)
+            <string>if(count&gt;250){
     scrollValue+=1
     
-    show_debug_message(vspeed)
+    show_debug_message(vspeed)}
     
-    if(scrollValue=1)
-    alarm[0]=90
+if(y&lt;-10){
+audio_stop_sound(sndElevatorMusic)
+instance_create(1,1,objRaptorSmile)
+
+
+}
+show_debug_message(line)
+    
+    
 </string>
           </argument>
         </arguments>
@@ -199,7 +415,7 @@ draw_text(x+padding,y+padding-scrollValue, str)
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="32">
+    <event eventtype="9" enumb="13">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -219,7 +435,7 @@ draw_text(x+padding,y+padding-scrollValue, str)
             <string>
 
 audio_stop_sound(sndElevatorMusic)
-audio_play_sound(sndBongo,1,true)
+
 room_goto(Title_Menu)
 </string>
           </argument>
