@@ -14,6 +14,8 @@
     <sound>sound\sndYouDied</sound>
     <sound>sound\sndElevatorMusic</sound>
     <sound>sound\sndManBeingEaten</sound>
+    <sound>sound\sndEvilLaugh</sound>
+    <sound>sound\sndBurp</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Raptor">
@@ -65,6 +67,14 @@
     <sprite>sprites\sprSquare</sprite>
     <sprite>sprites\sprSpaceship</sprite>
     <sprite>sprites\sprChef</sprite>
+    <sprite>sprites\sprHelp</sprite>
+    <sprite>sprites\sprSprite</sprite>
+    <sprite>sprites\sprRaptorSmile</sprite>
+    <sprite>sprites\sprRedOn</sprite>
+    <sprite>sprites\sprRedOff</sprite>
+    <sprite>sprites\sprGreyOn</sprite>
+    <sprite>sprites\sprGreyOff</sprite>
+    <sprite>sprites\sprOptions</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckLevel1</background>
@@ -137,6 +147,12 @@
     <object>objects\objSpaceship</object>
     <object>objects\objChef</object>
     <object>objects\objYouDied</object>
+    <object>objects\objHelp</object>
+    <object>objects\objSprite</object>
+    <object>objects\objRaptorSmile</object>
+    <object>objects\objOn</object>
+    <object>objects\objOff</object>
+    <object>objects\objOptions</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmChooser</room>
@@ -149,6 +165,8 @@
     <room>rooms\Intro</room>
     <room>rooms\Escaped</room>
     <room>rooms\Credits</room>
+    <room>rooms\Help</room>
+    <room>rooms\Options</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
